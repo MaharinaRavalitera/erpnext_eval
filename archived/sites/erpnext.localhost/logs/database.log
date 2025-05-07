@@ -1,0 +1,6 @@
+2025-04-29 17:47:39,174 WARNING database DDL Query made to DB:
+DROP DATABASE IF EXISTS `nom_de_ta_base`
+2025-04-29 17:47:39,174 WARNING database DDL Query made to DB:
+DROP USER IF EXISTS 'nom_de_ta_base'@'%'
+2025-04-29 17:47:39,175 WARNING database DDL Query made to DB:
+DROP USER IF EXISTS 'nom_de_ta_base'@'localhost'

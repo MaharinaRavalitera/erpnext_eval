@@ -1,0 +1,40 @@
+création produit: Stock (Stock) → Item (Article)
+faire une demande de besoin (material request): Stock → Material Request
+faire un demande de devis à un fournisseur (quotation): Achat (Buying) → Supplier Quotation (Devis fournisseur)
+faire un bon de commande (purchase order) : Achat (Buying) → Purchase Order (Bon de commande)
+recevoir facture (Purchase Invoice) : Achat (Buying) → Purchase Invoice (Facture fournisseur)
+voir statut des factures (purchase invoice) : Achat (Buying) → Purchase Invoice (Facture fournisseur)
+
+
+
+
+je suis en train de travailler sur le projet ERPNext qui est basé sur le framework frappe. cette application, je vais l'appeler "erpnext". je vais ajouter "NewApp" qui est une nouvelle application MVC qui doit utiliser une technologie différente de erpnext. erpnext  est deja developpe en python donc pour NewApp, je choisis le Springboot.
+Sachant que erpnext est une application qui est déjà en cours de développement et qui est utilisée par des utilisateurs, je dois m'assurer que NewApp est compatible avec erpnext.NewApp interagit avec erpnext uniquement par appel à son API, sans accès direct à sa base de données ou à son code interne.
+L'application NewApp communique exclusivement avec l'application erpnext via des appels HTTP REST. Toute interaction ou échange de données entre les deux applications est strictement limité à l'utilisation des endpoints REST exposés par erpnext. Aucun accès direct à la base de données, ni à d'autres composants internes d'erpnext n'est autorisé.
+
+je suis toujours en train de travailler sur ERPNext, basé sur le framework frappe et sur NewApp qui est la nouvelle application MVC, developpé en Springboot. NewApp interagit avec erpnext uniquement par appel à son API, sans accès direct à sa base de données ou à son code interne.
+L'application NewApp communique exclusivement avec l'application erpnext via des appels HTTP REST. Toute interaction ou échange de données entre les deux applications est strictement limité à l'utilisation des endpoints REST exposés par erpnext. Aucun accès direct à la base de données, ni à d'autres composants internes d'erpnext n'est autorisé.
+maintenant je veux ajouter la fonctionnalité qui permet de lister les demandes de devis et dedans, on va pouvoir mettre à jour les prix; dans NewApp
+
+
+
+bench --site erpnext.localhost reinstall
+bench --site erpnext.localhost install-app erpnext
+bench --site erpnext.localhost clear-cache
+bench --site erpnext.localhost list-apps
+
+ bench --site erpnext.localhost migrate
+
+
+
+ 1. Vérifier l'existence de données dans ERPNext
+La première question est : y a-t-il réellement des "Supplier Quotations" dans votre instance ERPNext ? Si ERPNext ne contient pas de devis fournisseurs, alors notre API renverra un tableau vide, ce qui expliquerait pourquoi rien ne s'affiche.
+
+2. Examiner les logs côté JavaScript
+D'après ce que je vois, le JavaScript est bien configuré pour afficher les données de l'API. Avez-vous pu vérifier ce que montrent les logs de la console du navigateur lorsque vous ouvrez la page de quotations ? Ces logs nous indiqueraient si :
+
+L'appel API est effectué
+Une réponse est reçue
+La structure de la réponse est celle attendue
+3. Vérifier le mappage des données
+Il pourrait y avoir un problème de mappage entre les noms de champs dans ERPNext et ceux attendus par votre application. Par exemple, ERPNext pourrait utiliser transaction_date alors que votre code cherche transactionDate.

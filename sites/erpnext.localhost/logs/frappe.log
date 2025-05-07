@@ -1,0 +1,351 @@
+2025-05-04 00:37:23,558 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'fields': ['name', 'supplier_id', 'supplier_name', 'supplier_type', 'country', 'supplier_group', 'status'], 'limit_page_length': 20}
+2025-05-04 00:37:45,764 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'fields': ['name', 'supplier_id', 'supplier_name', 'supplier_type', 'country', 'supplier_group', 'status'], 'limit_page_length': 20}
+2025-05-04 01:10:58,203 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Customer","name":"new-customer-lnrdxbgayw","__islocal":1,"__unsaved":1,"owner":"Administrator","naming_series":"CUST-.YYYY.-","customer_type":"Company","is_internal_customer":0,"companies":[],"language":"fr","credit_limits":[],"accounts":[],"sales_team":[],"so_required":0,"dn_required":0,"is_frozen":0,"disabled":0,"portal_users":[],"__run_link_triggers":1,"customer_name":"za ihany","address_line1":"Lot Xd30","pincode":"101","city":"antananarivo","state":"malagasy","country":"Madagascar","email_id":"za@mail.fr","mobile_no":"0345699857","first_name":"za","last_name":"ihany","map_to_first_name":"za","map_to_last_name":"ihany","email_address":"za@mail.fr","mobile_number":"0345699857"}', 'cmd': 'frappe.client.save'}
+2025-05-04 01:37:18,122 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Supplier","name":"new-supplier-rgtgfvccxe","__islocal":1,"__unsaved":1,"owner":"Administrator","naming_series":"SUP-.YYYY.-","country":"Madagascar","supplier_type":"Company","is_transporter":0,"is_internal_supplier":0,"companies":[],"language":"fr","accounts":[],"allow_purchase_invoice_creation_without_purchase_order":0,"allow_purchase_invoice_creation_without_purchase_receipt":0,"is_frozen":0,"disabled":0,"warn_rfqs":0,"warn_pos":0,"prevent_rfqs":0,"prevent_pos":0,"on_hold":0,"hold_type":"","portal_users":[],"__run_link_triggers":1,"supplier_name":"Supplier"}', 'cmd': 'frappe.client.save'}
+2025-05-04 01:37:37,749 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'party': "Ferme d'Antanandrano", 'party_type': 'Supplier', 'price_list': 'Standard Buying', 'posting_date': '2025-05-04', 'fetch_payment_terms_template': '1', 'currency': 'USD', 'company': 'Fanandramana', 'doctype': 'Supplier Quotation', 'cmd': 'erpnext.accounts.party.get_party_details'}
+2025-05-04 01:40:02,737 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'party': "Ferme d'Antanandrano", 'party_type': 'Supplier', 'price_list': 'Standard Buying', 'posting_date': '2025-05-04', 'fetch_payment_terms_template': '1', 'currency': 'USD', 'company': 'Fanandramana', 'doctype': 'Supplier Quotation', 'cmd': 'erpnext.accounts.party.get_party_details'}
+2025-05-04 01:40:27,326 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'item_idx': '1', 'docs': '{"docstatus":0,"doctype":"Supplier Quotation","name":"new-supplier-quotation-cyhjvszemt","__islocal":1,"__unsaved":1,"owner":"Administrator","naming_series":"PUR-SQTN-.YYYY.-","company":"Fanandramana","status":"Draft","transaction_date":"2025-05-04","currency":"USD","buying_price_list":"Standard Buying","price_list_currency":"USD","ignore_pricing_rule":0,"items":[{"docstatus":0,"doctype":"Supplier Quotation Item","name":"new-supplier-quotation-item-scoimmsyln","__islocal":1,"__unsaved":1,"owner":"Administrator","is_free_item":0,"stock_uom":"Nos","page_break":0,"parent":"new-supplier-quotation-cyhjvszemt","parentfield":"items","parenttype":"Supplier Quotation","idx":1,"qty":0,"conversion_factor":0,"stock_qty":0,"price_list_rate":0,"discount_amount":0,"distributed_discount_amount":0,"base_price_list_rate":0,"rate":0,"amount":0,"base_rate":0,"base_amount":0,"net_rate":0,"net_amount":0,"base_net_rate":0,"base_net_amount":0,"weight_per_unit":0,"total_weight":0,"item_code":"prod-001"}],"taxes":[],"apply_discount_on":"Grand Total","disable_rounded_total":0,"pricing_rules":[],"group_same_items":0,"is_subcontracted":0,"valid_till":"2025-06-04","billing_address":"","shipping_address":"","billing_address_display":"","shipping_address_display":"","conversion_rate":1,"plc_conversion_rate":1,"base_net_total":0,"net_total":0,"base_total":0,"total":0,"total_qty":0,"grand_total":0,"taxes_and_charges_deducted":0,"taxes_and_charges_added":0,"base_grand_total":0,"base_taxes_and_charges_added":0,"base_taxes_and_charges_deducted":0,"total_taxes_and_charges":0,"base_total_taxes_and_charges":0,"rounded_total":0,"rounding_adjustment":0,"base_rounding_adjustment":0,"base_rounded_total":0,"in_words":"","base_in_words":"","base_discount_amount":0,"supplier_name":"Ferme d\'Antanandrano","supplier":"Ferme d\'Antanandrano","cost_center":"Principal - F"}', 'method': 'process_item_selection', 'args': '{"item_idx":1}', 'cmd': 'run_doc_method'}
+2025-05-04 01:41:30,917 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Supplier Quotation","name":"new-supplier-quotation-cyhjvszemt","__islocal":1,"__unsaved":1,"owner":"Administrator","naming_series":"PUR-SQTN-.YYYY.-","company":"Fanandramana","status":"Draft","transaction_date":"2025-05-04","currency":"USD","buying_price_list":"Standard Buying","price_list_currency":"USD","ignore_pricing_rule":0,"items":[{"docstatus":0,"doctype":"Supplier Quotation Item","name":"new-supplier-quotation-item-scoimmsyln","__islocal":1,"__unsaved":1,"owner":"Administrator","is_free_item":0,"stock_uom":"Nos","page_break":0,"parent":"new-supplier-quotation-cyhjvszemt","parentfield":"items","parenttype":"Supplier Quotation","idx":1,"qty":10,"conversion_factor":1,"stock_qty":10,"price_list_rate":0,"discount_amount":0,"distributed_discount_amount":0,"base_price_list_rate":0,"rate":0.1,"amount":1,"base_rate":0.1,"base_amount":1,"net_rate":0.1,"net_amount":1,"base_net_rate":0.1,"base_net_amount":1,"weight_per_unit":0,"total_weight":0,"item_code":"prod-001","has_margin":false,"child_docname":"new-supplier-quotation-item-scoimmsyln","discount_percentage":0,"uom":"Kg","pricing_rules":"","margin_type":"","margin_rate_or_amount":0,"rate_with_margin":0,"base_rate_with_margin":0,"stock_uom_rate":0.1,"warehouse":"Magasins - F","projected_qty":1,"actual_qty":0,"reserved_qty":0,"company_total_stock":0}],"taxes":[],"apply_discount_on":"Grand Total","disable_rounded_total":0,"pricing_rules":[],"group_same_items":0,"is_subcontracted":0,"valid_till":"2025-06-04","billing_address":"","shipping_address":"","billing_address_display":"","shipping_address_display":"","conversion_rate":1,"plc_conversion_rate":1,"base_net_total":1,"net_total":1,"base_total":1,"total":1,"total_qty":10,"grand_total":1,"taxes_and_charges_deducted":0,"taxes_and_charges_added":0,"base_grand_total":1,"base_taxes_and_charges_added":0,"base_taxes_and_charges_deducted":0,"total_taxes_and_charges":0,"base_total_taxes_and_charges":0,"rounded_total":1,"rounding_adjustment":0,"base_rounding_adjustment":0,"base_rounded_total":1,"in_words":"","base_in_words":"","base_discount_amount":0,"supplier_name":"Ferme d\'Antanandrano","supplier":"Ferme d\'Antanandrano","cost_center":"Principal - F","total_net_weight":0}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2025-05-04 01:44:47,656 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {}
+2025-05-04 01:44:48,083 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {}
+2025-05-04 01:44:48,481 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {}
+2025-05-04 01:44:56,112 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {}
+2025-05-04 01:44:56,204 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {}
+2025-05-04 01:44:56,261 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {}
+2025-05-04 01:45:07,602 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {}
+2025-05-04 01:45:07,930 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {}
+2025-05-04 01:45:08,324 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {}
+2025-05-04 01:45:19,573 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {}
+2025-05-04 01:45:19,667 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {}
+2025-05-04 01:45:19,734 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {}
+2025-05-04 01:45:56,145 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {}
+2025-05-04 01:45:56,283 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {}
+2025-05-04 01:45:56,718 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {}
+2025-05-04 01:49:15,094 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {}
+2025-05-04 01:49:15,179 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {}
+2025-05-04 01:49:15,597 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {}
+2025-05-04 01:49:17,380 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {}
+2025-05-04 01:49:17,727 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {}
+2025-05-04 01:49:17,788 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {}
+2025-05-04 10:45:21,599 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {}
+2025-05-04 10:45:22,024 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {}
+2025-05-04 10:45:22,391 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {}
+2025-05-04 10:51:00,679 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {}
+2025-05-04 10:51:00,763 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {}
+2025-05-04 10:51:01,131 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {}
+2025-05-04 10:52:00,868 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {}
+2025-05-04 10:52:00,966 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {}
+2025-05-04 10:52:01,323 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {}
+2025-05-04 10:52:08,929 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {}
+2025-05-04 10:52:09,246 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {}
+2025-05-04 10:52:09,323 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {}
+2025-05-04 10:52:09,903 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {}
+2025-05-04 10:52:10,003 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {}
+2025-05-04 10:52:10,369 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {}
+2025-05-04 11:02:21,031 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {}
+2025-05-04 11:02:21,480 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {}
+2025-05-04 11:02:21,938 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {}
+2025-05-04 11:02:41,896 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {}
+2025-05-04 11:04:37,885 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {}
+2025-05-04 11:04:37,963 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {}
+2025-05-04 11:04:38,349 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {}
+2025-05-04 11:48:02,696 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'name': 'data-reset-tool', 'cmd': 'frappe.desk.desk_page.getpage'}
+2025-05-04 11:50:27,106 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'name': 'data-reset-tool', 'cmd': 'frappe.desk.desk_page.getpage'}
+2025-05-04 11:50:37,225 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'name': 'data-reset-tool', 'cmd': 'frappe.desk.desk_page.getpage'}
+2025-05-04 11:50:41,695 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'name': 'data-reset-tool', 'cmd': 'frappe.desk.desk_page.getpage'}
+2025-05-04 11:51:13,010 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'name': 'data-reset-tool', 'cmd': 'frappe.desk.desk_page.getpage'}
+2025-05-04 11:51:43,807 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'doctype': 'Workspace', 'name': 'Data Reset', 'cmd': 'frappe.client.delete'}
+2025-05-04 11:52:19,852 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'doctype': 'Module Def', 'name': 'Data-reset', 'cmd': 'frappe.client.delete'}
+2025-05-04 11:53:31,155 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'doctype': 'Workspace', 'name': 'Data Reset', 'cmd': 'frappe.client.delete'}
+2025-05-04 11:53:46,469 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'doc': '{"name":"Data Reset","owner":"Administrator","creation":"2025-04-29 18:49:36.571471","modified":"2025-04-29 18:50:35.499481","modified_by":"Administrator","docstatus":0,"idx":0,"label":"Data Reset","title":"Data Reset","sequence_id":23,"for_user":"","parent_page":"","module":"","app":"erpnext","type":"Link","link_type":"Page","link_to":"data-reset-tool","icon":"refresh","indicator_color":"green","hide_custom":0,"public":1,"is_hidden":0,"content":"[{\\"type\\":\\"header\\",\\"data\\":{\\"text\\":\\"Data Reset\\"}}]","doctype":"Workspace","number_cards":[],"charts":[],"shortcuts":[],"links":[],"quick_lists":[],"custom_blocks":[],"roles":[],"__last_sync_on":"2025-05-04T08:53:25.097Z","__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2025-05-04 11:54:03,440 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'doctype': 'Workspace', 'name': 'Data Reset', 'cmd': 'frappe.client.delete'}
+2025-05-04 11:57:06,486 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Page","name":"new-page-hagkszlfls","__islocal":1,"__unsaved":1,"owner":"Administrator","system_page":0,"standard":"Yes","roles":[],"title":"Data-reset","page_name":"Data Reset","module":"Data-reset"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2025-05-04 11:59:14,989 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Page","name":"new-page-pdkulyearo","__islocal":1,"__unsaved":1,"owner":"Administrator","system_page":0,"standard":"Yes","roles":[],"page_name":"Data-reset","title":"Data-reset","module":"Data-reset"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2025-05-04 12:00:44,450 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'name': 'import-data', 'cmd': 'frappe.desk.desk_page.getpage'}
+2025-05-04 12:03:05,246 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'name': 'import-data', 'cmd': 'frappe.desk.desk_page.getpage'}
+2025-05-04 12:09:32,858 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'new_page': '{"content":"[{\\"type\\":\\"header\\",\\"data\\":{\\"text\\":\\"Data reset\\"}}]","name":"Data reset","label":"Data reset","title":"Data reset","public":1,"for_user":"","parent_page":"","is_editable":true,"selected":true,"app":"frappe","type":"Link","link_type":"Page","link_to":"data-reset"}', 'cmd': 'frappe.desk.doctype.workspace.workspace.new_page'}
+2025-05-04 12:12:11,550 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'name': 'import-data', 'cmd': 'frappe.desk.desk_page.getpage'}
+2025-05-04 12:12:59,152 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'doctype': 'Page', 'name': 'import-data', 'cmd': 'frappe.client.delete'}
+2025-05-04 12:13:18,417 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'doctype': 'Workspace', 'name': 'Import CSV', 'cmd': 'frappe.client.delete'}
+2025-05-04 12:13:50,257 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'doctype': 'Workspace', 'name': 'Import CSV', 'cmd': 'frappe.client.delete'}
+2025-05-04 12:20:06,886 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'doc': '{"name":"Réinitialisation de données","owner":"Administrator","creation":"2025-05-04 12:11:09.314341","modified":"2025-05-04 12:11:59.697546","modified_by":"Administrator","docstatus":0,"idx":0,"label":"Réinitialisation de données","title":"Data Reset","sequence_id":25,"for_user":"","parent_page":"","module":"Data-reset","app":"erpnext","type":"Link","link_type":"Page","link_to":"data-reset","icon":"refresh","indicator_color":"green","hide_custom":0,"public":1,"is_hidden":0,"content":"[{\\"type\\":\\"header\\",\\"data\\":{\\"text\\":\\"Réinitialisation de données\\"}}]","doctype":"Workspace","number_cards":[],"charts":[],"shortcuts":[],"links":[],"quick_lists":[],"custom_blocks":[],"roles":[],"__last_sync_on":"2025-05-04T09:19:56.744Z","__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2025-05-04 12:20:19,057 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'doc': '{"name":"Réinitialisation de données","owner":"Administrator","creation":"2025-05-04 12:11:09.314341","modified":"2025-05-04 12:11:59.697546","modified_by":"Administrator","docstatus":0,"idx":0,"label":"Réinitialisation de données","title":"Data-Reset","sequence_id":25,"for_user":"","parent_page":"","module":"Data-reset","app":"erpnext","type":"Link","link_type":"Page","link_to":"data-reset","icon":"refresh","indicator_color":"green","hide_custom":0,"public":1,"is_hidden":0,"content":"[{\\"type\\":\\"header\\",\\"data\\":{\\"text\\":\\"Réinitialisation de données\\"}}]","doctype":"Workspace","number_cards":[],"charts":[],"shortcuts":[],"links":[],"quick_lists":[],"custom_blocks":[],"roles":[],"__last_sync_on":"2025-05-04T09:19:56.744Z","__unsaved":1}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2025-05-04 12:22:30,101 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Page","name":"new-page-zsdohscurx","__islocal":1,"__unsaved":1,"owner":"Administrator","system_page":0,"standard":"Yes","roles":[],"page_name":"Data-import","title":"Data-import","module":"Data-import"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2025-05-04 13:28:20,328 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Item Group","name":"new-item-group-jzbdjkikem","__islocal":1,"__unsaved":1,"owner":"Administrator","is_group":1,"item_group_defaults":[],"taxes":[],"item_group_name":"Electronique","parent_item_group":"Electronique"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2025-05-04 13:34:05,820 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'item_idx': '1', 'docs': '{"docstatus":0,"doctype":"Supplier Quotation","name":"new-supplier-quotation-ymxqktcusc","__islocal":1,"__unsaved":1,"owner":"Administrator","naming_series":"PUR-SQTN-.YYYY.-","company":"Fanandramana","status":"Draft","transaction_date":"2025-05-04","currency":"USD","buying_price_list":"Standard Buying","price_list_currency":"USD","ignore_pricing_rule":0,"items":[{"docstatus":0,"doctype":"Supplier Quotation Item","name":"new-supplier-quotation-item-eidvehgwhz","__islocal":1,"__unsaved":1,"owner":"Administrator","is_free_item":0,"stock_uom":"Nos","page_break":0,"parent":"new-supplier-quotation-ymxqktcusc","parentfield":"items","parenttype":"Supplier Quotation","idx":1,"qty":0,"conversion_factor":0,"stock_qty":0,"price_list_rate":0,"discount_amount":0,"distributed_discount_amount":0,"base_price_list_rate":0,"rate":0,"amount":0,"base_rate":0,"base_amount":0,"net_rate":0,"net_amount":0,"base_net_rate":0,"base_net_amount":0,"weight_per_unit":0,"total_weight":0,"item_code":"PROD-001"}],"taxes":[],"apply_discount_on":"Grand Total","disable_rounded_total":0,"pricing_rules":[],"group_same_items":0,"is_subcontracted":0,"valid_till":"2025-06-04","conversion_rate":1,"plc_conversion_rate":1,"billing_address":"","shipping_address":"","billing_address_display":"","shipping_address_display":"","base_net_total":0,"net_total":0,"base_total":0,"total":0,"total_qty":0,"grand_total":0,"taxes_and_charges_deducted":0,"taxes_and_charges_added":0,"base_grand_total":0,"base_taxes_and_charges_added":0,"base_taxes_and_charges_deducted":0,"total_taxes_and_charges":0,"base_total_taxes_and_charges":0,"rounded_total":0,"rounding_adjustment":0,"base_rounding_adjustment":0,"base_rounded_total":0,"in_words":"","base_in_words":"","base_discount_amount":0,"supplier_name":"Randria","supplier":"Randria","supplier_address":null,"address_display":null,"tax_category":"","contact_person":null,"contact_display":null,"contact_email":null,"contact_mobile":null,"language":"fr","cost_center":"Principal - F"}', 'method': 'process_item_selection', 'args': '{"item_idx":1}', 'cmd': 'run_doc_method'}
+2025-05-04 13:34:47,751 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Supplier Quotation","name":"new-supplier-quotation-ymxqktcusc","__islocal":1,"__unsaved":1,"owner":"Administrator","naming_series":"PUR-SQTN-.YYYY.-","company":"Fanandramana","status":"Draft","transaction_date":"2025-05-04","currency":"USD","buying_price_list":"Standard Buying","price_list_currency":"USD","ignore_pricing_rule":0,"items":[{"docstatus":0,"doctype":"Supplier Quotation Item","name":"new-supplier-quotation-item-eidvehgwhz","__islocal":1,"__unsaved":1,"owner":"Administrator","is_free_item":0,"stock_uom":"Nos","page_break":0,"parent":"new-supplier-quotation-ymxqktcusc","parentfield":"items","parenttype":"Supplier Quotation","idx":1,"qty":2,"conversion_factor":1,"stock_qty":2,"price_list_rate":0,"discount_amount":0,"distributed_discount_amount":0,"base_price_list_rate":0,"rate":10,"amount":20,"base_rate":10,"base_amount":20,"net_rate":10,"net_amount":20,"base_net_rate":10,"base_net_amount":20,"weight_per_unit":0,"total_weight":0,"item_code":"PROD-001","has_margin":false,"child_docname":"new-supplier-quotation-item-eidvehgwhz","discount_percentage":0,"uom":"Unit","pricing_rules":"","margin_type":"","margin_rate_or_amount":0,"rate_with_margin":0,"base_rate_with_margin":0,"stock_uom_rate":10}],"taxes":[],"apply_discount_on":"Grand Total","disable_rounded_total":0,"pricing_rules":[],"group_same_items":0,"is_subcontracted":0,"valid_till":"2025-06-04","conversion_rate":1,"plc_conversion_rate":1,"billing_address":"","shipping_address":"","billing_address_display":"","shipping_address_display":"","base_net_total":20,"net_total":20,"base_total":20,"total":20,"total_qty":2,"grand_total":20,"taxes_and_charges_deducted":0,"taxes_and_charges_added":0,"base_grand_total":20,"base_taxes_and_charges_added":0,"base_taxes_and_charges_deducted":0,"total_taxes_and_charges":0,"base_total_taxes_and_charges":0,"rounded_total":20,"rounding_adjustment":0,"base_rounding_adjustment":0,"base_rounded_total":20,"in_words":"","base_in_words":"","base_discount_amount":0,"supplier_name":"Randria","supplier":"Randria","supplier_address":null,"address_display":null,"tax_category":"","contact_person":null,"contact_display":null,"contact_email":null,"contact_mobile":null,"language":"fr","cost_center":"Principal - F","total_net_weight":0}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2025-05-04 15:17:58,985 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'doctype': 'Material Request', 'txt': '', 'filters': '{"docstatus":["!=",2],"supplier":"Randria","company":"Fanandramana"}', 'filter_fields': '["company"]', 'page_length': '25', 'query': 'erpnext.stock.doctype.material_request.material_request.get_material_requests_based_on_supplier', 'as_dict': '1', 'cmd': 'frappe.desk.search.search_widget'}
+2025-05-04 15:33:37,126 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Purchase Invoice","name":"new-purchase-invoice-hhvcttlfyu","__islocal":1,"__unsaved":1,"owner":"Administrator","naming_series":"ACC-PINV-.YYYY.-","company":"Fanandramana","posting_date":"2025-05-04","set_posting_time":0,"is_paid":1,"is_return":0,"update_outstanding_for_self":1,"update_billed_amount_in_purchase_order":0,"update_billed_amount_in_purchase_receipt":1,"apply_tds":0,"currency":"USD","use_transaction_date_exchange_rate":0,"buying_price_list":"Standard Buying","price_list_currency":"USD","ignore_pricing_rule":1,"update_stock":0,"is_subcontracted":0,"items":[{"docstatus":0,"doctype":"Purchase Invoice Item","name":"new-purchase-invoice-item-ansdvjtver","__islocal":1,"__unsaved":1,"owner":"Administrator","conversion_factor":1,"stock_uom":"Unit","margin_type":"","is_free_item":0,"apply_tds":1,"use_serial_batch_fields":0,"is_fixed_asset":0,"enable_deferred_expense":0,"allow_zero_valuation_rate":0,"include_exploded_items":0,"cost_center":"Principal - F","page_break":0,"parent":"new-purchase-invoice-hhvcttlfyu","parentfield":"items","parenttype":"Purchase Invoice","idx":1,"received_qty":0,"qty":1,"rejected_qty":0,"stock_qty":1,"price_list_rate":10,"base_price_list_rate":10,"margin_rate_or_amount":0,"rate_with_margin":0,"discount_amount":0,"distributed_discount_amount":0,"base_rate_with_margin":0,"rate":10,"amount":10,"base_rate":10,"base_amount":10,"stock_uom_rate":10,"net_rate":10,"net_amount":10,"base_net_rate":10,"base_net_amount":10,"valuation_rate":0,"sales_incoming_rate":0,"item_tax_amount":0,"landed_cost_voucher_amount":0,"rm_supp_cost":0,"weight_per_unit":0,"total_weight":0,"warehouse":"Magasins - F","item_name":"Casque Remax","item_group":"Electronique","item_code":"PROD-001","description":"Casque Remax","image":"","uom":"Unit","discount_percentage":0,"expense_account":"Coût des marchandises vendues - F","item_tax_rate":"{}"}],"tax_withholding_net_total":10,"taxes":[],"use_company_roundoff_cost_center":0,"disable_rounded_total":0,"apply_discount_on":"Grand Total","tax_withheld_vouchers":[],"pricing_rules":[],"supplied_items":[],"allocate_advances_automatically":0,"only_include_allocated_payments":0,"advances":[],"advance_tax":[],"ignore_default_payment_terms_template":0,"payment_schedule":[],"status":"Draft","party_account_currency":"USD","is_opening":"No","group_same_items":0,"on_hold":0,"is_internal_supplier":0,"represents_company":"","is_old_subcontracting_flow":0,"conversion_rate":1,"plc_conversion_rate":1,"credit_to":"Créditeurs - F","posting_time":"15:32:00","billing_address":"","shipping_address":"","billing_address_display":"","shipping_address_display":"","base_net_total":10,"net_total":10,"base_total":10,"total":10,"total_qty":1,"grand_total":10,"taxes_and_charges_deducted":0,"taxes_and_charges_added":0,"base_grand_total":10,"base_taxes_and_charges_added":0,"base_taxes_and_charges_deducted":0,"total_taxes_and_charges":0,"base_total_taxes_and_charges":0,"rounded_total":10,"rounding_adjustment":0,"base_rounding_adjustment":0,"base_rounded_total":10,"in_words":"","base_in_words":"","base_discount_amount":0,"total_advance":0,"supplier_name":"Randria","supplier":"Randria","due_date":"2025-05-04","tax_category":"","language":"fr","payment_terms_template":"","write_off_amount":0,"paid_amount":0,"base_paid_amount":0,"outstanding_amount":10,"set_warehouse":"Magasins - F","idx":0,"total_net_weight":0,"base_tax_withholding_net_total":10,"additional_discount_percentage":0,"discount_amount":0,"base_write_off_amount":0,"per_received":0,"change_amount":0,"base_change_amount":0}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2025-05-04 15:51:18,657 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'fields': ['name', 'supplier_id', 'supplier_name', 'supplier_type', 'country', 'supplier_group', 'status'], 'limit_page_length': 20}
+2025-05-04 15:52:32,247 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'filters': '[["parent","=","ACC-PINV-2025-00001"]]', 'limit_page_length': 20}
+2025-05-04 15:52:47,883 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'fields': ['name', 'supplier_id', 'supplier_name', 'supplier_type', 'country', 'supplier_group', 'status'], 'limit_page_length': 20}
+2025-05-04 15:52:53,196 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'fields': ['name', 'supplier_id', 'supplier_name', 'supplier_type', 'country', 'supplier_group', 'status'], 'limit_page_length': 20}
+2025-05-04 15:52:53,869 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'fields': ['name', 'supplier_id', 'supplier_name', 'supplier_type', 'country', 'supplier_group', 'status'], 'limit_page_length': 20}
+2025-05-04 15:53:05,062 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'fields': ['name', 'supplier_id', 'supplier_name', 'supplier_type', 'country', 'supplier_group', 'status'], 'limit_page_length': 20}
+2025-05-04 15:53:13,905 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'filters': '[["parent","=","ACC-PINV-2025-00001"]]', 'limit_page_length': 20}
+2025-05-04 16:27:32,744 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'fields': ['name', 'supplier_id', 'supplier_name', 'supplier_type', 'country', 'supplier_group', 'status'], 'limit_page_length': 20}
+2025-05-04 16:38:54,357 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'fields': ['name', 'supplier_name', 'supplier_type', 'country', 'supplier_group', 'status'], 'limit_page_length': 20}
+2025-05-04 21:27:46,391 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'filters': '[["parent","=","ACC-PINV-2025-00001"]]', 'limit_page_length': 20}
+2025-05-04 21:35:01,376 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'fields': ['name', 'transaction_date', 'status', 'supplier', 'supplier_name', 'grand_total', 'currency', 'docstatus', 'modified'], 'limit_page_length': 20}
+2025-05-04 21:35:13,860 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'fields': ['name', 'transaction_date', 'status', 'supplier', 'supplier_name', 'grand_total', 'currency', 'docstatus', 'modified'], 'limit_page_length': 20}
+2025-05-04 21:37:06,244 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'fields': ['name', 'transaction_date', 'status', 'supplier', 'supplier_name', 'grand_total', 'currency', 'docstatus', 'modified'], 'limit_page_length': 20}
+2025-05-04 21:37:20,563 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'fields': ['name', 'transaction_date', 'status', 'supplier', 'supplier_name', 'grand_total', 'currency', 'docstatus', 'modified'], 'limit_page_length': 20}
+2025-05-04 21:41:37,785 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'doctype': 'Request%20for%20Quotation', 'fields': '["name","transaction_date","status","grand_total","currency","docstatus","modified"]', 'cmd': 'frappe.client.get_list'}
+2025-05-04 21:43:11,154 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'doctype': 'Request%20for%20Quotation', 'fields': '["name","transaction_date","status","grand_total","currency","docstatus","modified"]', 'cmd': 'frappe.client.get_list'}
+2025-05-04 21:45:14,037 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'doctype': 'Request for Quotation', 'fields': '["name","transaction_date","status","grand_total","currency","docstatus","modified"]', 'cmd': 'frappe.client.get_list'}
+2025-05-04 21:48:36,615 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'doctype': 'Request for Quotation', 'fields': '["name","transaction_date","status","grand_total","currency","docstatus","modified"]', 'cmd': 'frappe.client.get_list'}
+2025-05-04 23:03:58,062 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'doctype': 'Supplier Quotation Item', 'fields': '["*"]', 'filters': '[["parent","=","PUR-SQTN-2025-00001"]]', 'cmd': 'frappe.client.get_list'}
+2025-05-04 23:04:11,294 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'doctype': 'Supplier Quotation Item', 'fields': '["*"]', 'filters': '[["parent","=","PUR-SQTN-2025-00001"]]', 'cmd': 'frappe.client.get_list'}
+2025-05-04 23:30:47,051 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'doctype': 'Supplier Quotation Item', 'fields': '["*"]', 'filters': '[["parent","=","PUR-SQTN-2025-00001"]]', 'cmd': 'frappe.client.get_list'}
+2025-05-05 01:20:08,180 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'filters': '[["parent","=","ACC-PINV-2025-00001"]]', 'limit_page_length': 20}
+2025-05-05 03:24:53,470 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'filters': '[["parent","=","ACC-PINV-2025-00001"]]', 'limit_page_length': 20}
+2025-05-05 03:29:06,266 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'filters': '[["parent","=","ACC-PINV-2025-00001"]]', 'limit_page_length': 20}
+2025-05-05 08:19:58,143 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'filters': '[["parent","=","ACC-PINV-2025-00001"]]', 'limit_page_length': 20}
+2025-05-05 11:37:25,458 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'references': [{'doctype': 'Payment Entry Reference', 'reference_name': 'ACC-PINV-2025-00002', 'exchange_rate': 1.0, 'reference_doctype': 'Purchase Invoice', 'total_amount': 100.0, 'allocated_amount': 100.0, 'outstanding_amount': 100.0}], 'paid_from_account_type': 'Bank', 'party_type': 'Supplier', 'received_amount': 100.0, 'paid_to_account_type': None, 'doctype': 'Payment Entry', 'base_paid_amount': 100.0, 'payment_type': 'Pay', 'party_name': 'Randria', 'paid_from_account_currency': None, 'paid_to_account_currency': None, 'paid_to': 'Créditeurs - F', 'paid_amount': 100.0, 'base_received_amount': 100.0, 'company': 'Soa company', 'mode_of_payment': 'Cash', 'reference_date': '2025-05-05', 'target_exchange_rate': 1.0, 'posting_date': '2025-05-05', 'paid_from': 'Espèces - F', 'source_exchange_rate': 1.0, 'docstatus': 0, 'party': 'Randria', 'reference_no': '1244585'}
+2025-05-05 11:58:11,460 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'references': [{'doctype': 'Payment Entry Reference', 'reference_name': 'ACC-PINV-2025-00002', 'exchange_rate': 1.0, 'reference_doctype': 'Purchase Invoice', 'total_amount': 100.0, 'allocated_amount': 100.0, 'outstanding_amount': 100.0}], 'paid_from_account_type': 'Bank', 'party_type': 'Supplier', 'received_amount': 100.0, 'paid_to_account_type': None, 'doctype': 'Payment Entry', 'base_paid_amount': 100.0, 'payment_type': 'Pay', 'party_name': 'Randria', 'paid_from_account_currency': None, 'paid_to_account_currency': None, 'paid_to': 'Créditeurs - F', 'paid_amount': 100.0, 'base_received_amount': 100.0, 'company': 'Soa company', 'mode_of_payment': 'Cash', 'reference_date': '2025-05-05', 'target_exchange_rate': 1.0, 'posting_date': '2025-05-05', 'paid_from': 'Espèces - F', 'source_exchange_rate': 1.0, 'docstatus': 0, 'party': 'Randria', 'reference_no': '1244585'}
+2025-05-05 17:36:42,420 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'references': [{'doctype': 'Payment Entry Reference', 'reference_name': 'ACC-PINV-2025-00002', 'exchange_rate': 1.0, 'reference_doctype': 'Purchase Invoice', 'total_amount': 100.0, 'allocated_amount': 100.0, 'outstanding_amount': 100.0}], 'paid_from_account_type': 'Bank', 'party_type': 'Supplier', 'received_amount': 100.0, 'paid_to_account_type': None, 'doctype': 'Payment Entry', 'base_paid_amount': 100.0, 'payment_type': 'Pay', 'party_name': 'Randria', 'paid_from_account_currency': None, 'paid_to_account_currency': None, 'paid_to': 'Créditeurs - F', 'paid_amount': 100.0, 'base_received_amount': 100.0, 'company': 'Soa company', 'mode_of_payment': 'Cash', 'reference_date': '2025-05-05', 'target_exchange_rate': 1.0, 'posting_date': '2025-05-05', 'paid_from': 'Espèces - F', 'source_exchange_rate': 1.0, 'docstatus': 0, 'party': 'Randria', 'reference_no': '1244585'}
+2025-05-05 17:42:05,176 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'references': [{'doctype': 'Payment Entry Reference', 'reference_name': 'ACC-PINV-2025-00002', 'exchange_rate': 1.0, 'reference_doctype': 'Purchase Invoice', 'total_amount': 100.0, 'allocated_amount': 100.0, 'outstanding_amount': 100.0}], 'paid_from_account_type': 'Bank', 'party_type': 'Supplier', 'received_amount': 100.0, 'paid_to_account_type': None, 'doctype': 'Payment Entry', 'base_paid_amount': 100.0, 'payment_type': 'Pay', 'party_name': 'Randria', 'paid_from_account_currency': None, 'paid_to_account_currency': None, 'paid_to': 'Créditeurs - F', 'paid_amount': 100.0, 'base_received_amount': 100.0, 'company': 'Frappe', 'mode_of_payment': 'Cash', 'reference_date': '2025-05-05', 'target_exchange_rate': 1.0, 'posting_date': '2025-05-05', 'paid_from': 'Espèces - F', 'source_exchange_rate': 1.0, 'docstatus': 0, 'party': 'Randria', 'reference_no': '1244585'}
+2025-05-05 20:54:12,092 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'item_idx': '1', 'docs': '{"docstatus":0,"doctype":"Supplier Quotation","name":"new-supplier-quotation-kpohlqbfra","__islocal":1,"__unsaved":1,"owner":"Administrator","naming_series":"PUR-SQTN-.YYYY.-","company":"Fanandramana","status":"Draft","transaction_date":"2025-05-05","currency":"USD","buying_price_list":"Standard Buying","price_list_currency":"USD","ignore_pricing_rule":0,"items":[{"docstatus":0,"doctype":"Supplier Quotation Item","name":"new-supplier-quotation-item-qhixnshnzx","__islocal":1,"__unsaved":1,"owner":"Administrator","is_free_item":0,"stock_uom":"Nos","page_break":0,"parent":"new-supplier-quotation-kpohlqbfra","parentfield":"items","parenttype":"Supplier Quotation","idx":1,"qty":0,"conversion_factor":0,"stock_qty":0,"price_list_rate":0,"discount_amount":0,"distributed_discount_amount":0,"base_price_list_rate":0,"rate":0,"amount":0,"base_rate":0,"base_amount":0,"net_rate":0,"net_amount":0,"base_net_rate":0,"base_net_amount":0,"weight_per_unit":0,"total_weight":0,"item_code":"PROD-001"}],"taxes":[],"apply_discount_on":"Grand Total","disable_rounded_total":0,"pricing_rules":[],"group_same_items":0,"is_subcontracted":0,"valid_till":"2025-06-05","billing_address":"","shipping_address":"","billing_address_display":"","shipping_address_display":"","conversion_rate":1,"plc_conversion_rate":1,"base_net_total":0,"net_total":0,"base_total":0,"total":0,"total_qty":0,"grand_total":0,"taxes_and_charges_deducted":0,"taxes_and_charges_added":0,"base_grand_total":0,"base_taxes_and_charges_added":0,"base_taxes_and_charges_deducted":0,"total_taxes_and_charges":0,"base_total_taxes_and_charges":0,"rounded_total":0,"rounding_adjustment":0,"base_rounding_adjustment":0,"base_rounded_total":0,"in_words":"","base_in_words":"","base_discount_amount":0,"supplier_name":"Randria","supplier":"Randria","supplier_address":null,"address_display":null,"tax_category":"","contact_person":null,"contact_display":null,"contact_email":null,"contact_mobile":null,"language":"fr","cost_center":"Principal - F"}', 'method': 'process_item_selection', 'args': '{"item_idx":1}', 'cmd': 'run_doc_method'}
+2025-05-06 21:59:34,258 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'doctype': 'Purchase%20Invoice', 'name': 'ACC-PINV-2025-00003', 'format': 'Standard', 'cmd': 'frappe.utils.print_format.download_pdf'}
+2025-05-06 22:00:54,051 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'doctype': 'Purchase%20Invoice', 'name': 'ACC-PINV-2025-00003', 'format': 'Standard', 'cmd': 'frappe.utils.print_format.download_pdf'}
+2025-05-06 22:05:24,074 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'doctype': 'Purchase Invoice', 'name': 'ACC-PINV-2025-00003', 'format': 'Standard', 'no_letterhead': '0', 'cmd': 'frappe.utils.print_format.download_multi_pdf'}
+2025-05-06 22:09:08,322 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'doctype': 'Purchase%20Invoice', 'name': 'ACC-PINV-2025-00003', 'format': 'Standard', 'no_letterhead': '0', 'cmd': 'frappe.utils.print_format.download_pdf'}
+2025-05-07 00:21:14,698 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'fields': '["*"]'}
+2025-05-07 00:21:14,809 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'fields': '["*"]'}
+2025-05-07 00:23:55,480 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'fields': '["*"]'}
+2025-05-07 00:23:55,575 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'fields': '["*"]'}
+2025-05-07 00:28:31,534 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'fields': '["*"]'}

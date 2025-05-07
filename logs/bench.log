@@ -1,0 +1,627 @@
+2025-04-29 17:41:52,455 DEBUG cd erpnext && python3 -m venv env
+2025-04-29 17:41:55,215 DEBUG cd erpnext && /home/maharina/erpnext/env/bin/python -m pip install --quiet --upgrade pip
+2025-04-29 17:41:57,219 DEBUG cd erpnext && /home/maharina/erpnext/env/bin/python -m pip install --quiet wheel
+2025-04-29 17:41:58,449 LOG Getting frappe
+2025-04-29 17:41:58,449 DEBUG cd erpnext/apps && git clone https://github.com/frappe/frappe.git  --depth 1 --origin upstream
+2025-04-29 17:42:17,265 LOG Installing frappe
+2025-04-29 17:42:17,265 DEBUG cd /home/maharina/erpnext && /home/maharina/erpnext/env/bin/python -m pip install --quiet --upgrade -e /home/maharina/erpnext/apps/frappe 
+2025-04-29 17:43:10,582 DEBUG cd /home/maharina/erpnext/apps/frappe && yarn install --check-files
+2025-04-29 17:43:28,010 DEBUG cd erpnext && bench build
+2025-04-29 17:43:28,112 INFO /home/maharina/frappe-env/bin/bench build
+2025-04-29 17:43:46,038 LOG setting up backups
+2025-04-29 17:43:46,042 LOG backups were set up
+2025-04-29 17:43:46,042 INFO Bench erpnext initialized
+2025-04-29 17:45:27,184 INFO /home/maharina/frappe-env/bin/bench start
+2025-04-29 17:45:27,384 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-04-29 17:45:27,396 INFO /home/maharina/frappe-env/bin/bench worker
+2025-04-29 17:45:27,400 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-04-29 17:45:27,401 INFO /home/maharina/frappe-env/bin/bench watch
+2025-04-29 17:45:47,323 INFO /home/maharina/frappe-env/bin/bench new-site erpnext.localhost --db-name nom_de_ta_base
+2025-04-29 17:46:02,063 INFO /home/maharina/frappe-env/bin/bench new-site erpnext.localhost --db-name erpnext_db
+2025-04-29 17:47:30,840 INFO /home/maharina/frappe-env/bin/bench drop-site erpnext.localhost --force
+2025-04-29 17:47:47,571 INFO /home/maharina/frappe-env/bin/bench new-site erpnext.localhost --db-name erpnext_db
+2025-04-29 17:48:41,676 INFO /home/maharina/frappe-env/bin/bench new-site erpnext.localhost --db-name erpnext_db
+2025-04-29 17:49:28,218 INFO /home/maharina/frappe-env/bin/bench get-app https://github.com/frappe/erpnext
+2025-04-29 17:49:28,225 LOG Getting erpnext
+2025-04-29 17:49:28,225 DEBUG cd ./apps && git clone https://github.com/frappe/erpnext  --depth 1 --origin upstream
+2025-04-29 17:49:39,948 LOG Installing erpnext
+2025-04-29 17:49:39,948 DEBUG cd /home/maharina/erpnext && /home/maharina/erpnext/env/bin/python -m pip install --quiet --upgrade -e /home/maharina/erpnext/apps/erpnext 
+2025-04-29 17:49:47,265 DEBUG cd /home/maharina/erpnext/apps/erpnext && yarn install --check-files
+2025-04-29 17:50:04,788 DEBUG bench build --app erpnext
+2025-04-29 17:50:04,891 INFO /home/maharina/frappe-env/bin/bench build --app erpnext
+2025-04-29 17:50:52,247 INFO /home/maharina/frappe-env/bin/bench --site erpnext.localhost install-app erpnext
+2025-04-29 18:00:01,106 INFO /home/maharina/frappe-env/bin/bench --verbose --site all backup
+2025-04-29 18:09:40,965 INFO /home/maharina/frappe-env/bin/bench build
+2025-04-29 18:10:13,579 INFO /home/maharina/frappe-env/bin/bench start
+2025-04-29 18:10:13,782 INFO /home/maharina/frappe-env/bin/bench worker
+2025-04-29 18:10:13,782 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-04-29 18:10:13,799 INFO /home/maharina/frappe-env/bin/bench watch
+2025-04-29 18:10:13,801 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-04-29 18:11:03,599 INFO /home/maharina/frappe-env/bin/bench build
+2025-04-29 18:11:28,693 INFO /home/maharina/frappe-env/bin/bench restart
+2025-04-29 18:16:10,222 INFO /home/maharina/frappe-env/bin/bench start
+2025-04-29 18:16:10,464 INFO /home/maharina/frappe-env/bin/bench watch
+2025-04-29 18:16:10,465 INFO /home/maharina/frappe-env/bin/bench worker
+2025-04-29 18:16:10,480 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-04-29 18:16:10,496 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-04-29 20:56:14,390 INFO /home/maharina/frappe-env/bin/bench start
+2025-04-29 20:56:14,623 INFO /home/maharina/frappe-env/bin/bench worker
+2025-04-29 20:56:14,627 INFO /home/maharina/frappe-env/bin/bench watch
+2025-04-29 20:56:14,631 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-04-29 20:56:14,675 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-04-29 21:05:06,613 INFO /home/maharina/frappe-env/bin/bench start
+2025-04-29 21:05:06,841 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-04-29 21:05:06,844 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-04-29 21:05:06,847 INFO /home/maharina/frappe-env/bin/bench watch
+2025-04-29 21:05:06,849 INFO /home/maharina/frappe-env/bin/bench worker
+2025-04-30 13:57:18,088 INFO /home/maharina/frappe-env/bin/bench version
+2025-04-30 13:58:33,385 INFO /home/maharina/frappe-env/bin/bench build
+2025-04-30 13:59:29,061 INFO /home/maharina/frappe-env/bin/bench stop
+2025-04-30 13:59:49,341 INFO /home/maharina/frappe-env/bin/bench stop
+2025-04-30 13:59:58,810 INFO /home/maharina/frappe-env/bin/bench start
+2025-04-30 13:59:59,017 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-04-30 13:59:59,030 INFO /home/maharina/frappe-env/bin/bench worker
+2025-04-30 13:59:59,038 INFO /home/maharina/frappe-env/bin/bench watch
+2025-04-30 13:59:59,041 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-04-30 14:01:24,015 INFO /home/maharina/frappe-env/bin/bench build
+2025-04-30 14:02:18,194 INFO /home/maharina/frappe-env/bin/bench build
+2025-04-30 14:02:44,278 INFO /home/maharina/frappe-env/bin/bench start
+2025-04-30 14:02:44,492 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-04-30 14:02:44,494 INFO /home/maharina/frappe-env/bin/bench watch
+2025-04-30 14:02:44,495 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-04-30 14:02:44,500 INFO /home/maharina/frappe-env/bin/bench worker
+2025-04-30 14:06:13,937 INFO /home/maharina/frappe-env/bin/bench start
+2025-04-30 14:06:14,147 INFO /home/maharina/frappe-env/bin/bench watch
+2025-04-30 14:06:14,151 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-04-30 14:06:14,151 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-04-30 14:06:14,155 INFO /home/maharina/frappe-env/bin/bench worker
+2025-04-30 14:07:30,801 INFO /home/maharina/frappe-env/bin/bench --site erpnext.localhost install-app translations
+2025-04-30 14:07:59,489 INFO /home/maharina/frappe-env/bin/bench build
+2025-04-30 14:09:29,321 INFO /home/maharina/frappe-env/bin/bench clear-cache
+2025-04-30 14:10:03,755 INFO /home/maharina/frappe-env/bin/bench restart
+2025-04-30 14:10:19,726 INFO /home/maharina/frappe-env/bin/bench start
+2025-04-30 14:10:19,935 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-04-30 14:10:19,943 INFO /home/maharina/frappe-env/bin/bench worker
+2025-04-30 14:10:19,966 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-04-30 14:10:19,970 INFO /home/maharina/frappe-env/bin/bench watch
+2025-04-30 14:11:58,565 INFO /home/maharina/frappe-env/bin/bench --site erpnext.localhost execute frappe.core.doctype.language.language.get_language_list()
+2025-04-30 14:12:39,156 INFO /home/maharina/frappe-env/bin/bench --site erpnext.localhost clear-cache
+2025-04-30 14:12:50,991 INFO /home/maharina/frappe-env/bin/bench build
+2025-04-30 14:13:12,171 INFO /home/maharina/frappe-env/bin/bench --site erpnext.localhost clear-cache
+2025-04-30 14:13:19,874 INFO /home/maharina/frappe-env/bin/bench start
+2025-04-30 14:13:20,077 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-04-30 14:13:20,077 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-04-30 14:13:20,077 INFO /home/maharina/frappe-env/bin/bench worker
+2025-04-30 14:13:20,077 INFO /home/maharina/frappe-env/bin/bench watch
+2025-04-30 14:14:36,483 INFO /home/maharina/frappe-env/bin/bench --site erpnext.localhost console
+2025-04-30 14:15:22,805 INFO /home/maharina/frappe-env/bin/bench --site erpnext.localhost clear-cache
+2025-04-30 14:15:28,417 INFO /home/maharina/frappe-env/bin/bench restart
+2025-04-30 14:15:34,706 INFO /home/maharina/frappe-env/bin/bench start
+2025-04-30 14:15:34,911 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-04-30 14:15:34,915 INFO /home/maharina/frappe-env/bin/bench worker
+2025-04-30 14:15:34,928 INFO /home/maharina/frappe-env/bin/bench watch
+2025-04-30 14:15:34,930 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-04-30 14:20:33,115 INFO /home/maharina/frappe-env/bin/bench build
+2025-04-30 14:21:10,606 INFO /home/maharina/frappe-env/bin/bench start
+2025-04-30 14:21:10,804 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-04-30 14:21:10,808 INFO /home/maharina/frappe-env/bin/bench worker
+2025-04-30 14:21:10,816 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-04-30 14:21:10,821 INFO /home/maharina/frappe-env/bin/bench watch
+2025-04-30 14:22:25,497 INFO /home/maharina/frappe-env/bin/bench --site erpnext.localhost clear-cache
+2025-04-30 14:22:28,508 INFO /home/maharina/frappe-env/bin/bench --site erpnext.localhost console
+2025-04-30 14:22:59,168 INFO /home/maharina/frappe-env/bin/bench --site erpnext.localhost clear-cache
+2025-04-30 14:23:47,239 INFO /home/maharina/frappe-env/bin/bench build
+2025-04-30 14:25:29,597 INFO /home/maharina/frappe-env/bin/bench --site erpnext.localhost console
+2025-04-30 14:26:35,421 INFO /home/maharina/frappe-env/bin/bench --site erpnext.localhost set-config language fr
+2025-04-30 14:26:47,329 INFO /home/maharina/frappe-env/bin/bench --site erpnext.localhost clear-cache
+2025-04-30 14:26:53,394 INFO /home/maharina/frappe-env/bin/bench build
+2025-04-30 14:27:24,917 INFO /home/maharina/frappe-env/bin/bench restart
+2025-04-30 14:27:29,867 INFO /home/maharina/frappe-env/bin/bench start
+2025-04-30 14:27:30,095 INFO /home/maharina/frappe-env/bin/bench watch
+2025-04-30 14:27:30,097 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-04-30 14:27:30,106 INFO /home/maharina/frappe-env/bin/bench worker
+2025-04-30 14:27:30,109 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-04-30 14:27:57,142 INFO /home/maharina/frappe-env/bin/bench --site erpnext.localhost console
+2025-04-30 14:28:39,770 INFO /home/maharina/frappe-env/bin/bench --site erpnext.localhost clear-cache
+2025-04-30 14:28:44,916 INFO /home/maharina/frappe-env/bin/bench start
+2025-04-30 14:28:45,133 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-04-30 14:28:45,135 INFO /home/maharina/frappe-env/bin/bench worker
+2025-04-30 14:28:45,148 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-04-30 14:28:45,152 INFO /home/maharina/frappe-env/bin/bench watch
+2025-04-30 14:29:46,469 INFO /home/maharina/frappe-env/bin/bench --site erpnext.localhost set-config language en
+2025-04-30 14:29:52,446 INFO /home/maharina/frappe-env/bin/bench --site erpnext.localhost clear-cache
+2025-04-30 14:29:57,358 INFO /home/maharina/frappe-env/bin/bench build
+2025-04-30 14:30:19,455 INFO /home/maharina/frappe-env/bin/bench restart
+2025-04-30 14:30:25,353 INFO /home/maharina/frappe-env/bin/bench start
+2025-04-30 14:30:25,558 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-04-30 14:30:25,563 INFO /home/maharina/frappe-env/bin/bench worker
+2025-04-30 14:30:25,578 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-04-30 14:30:25,597 INFO /home/maharina/frappe-env/bin/bench watch
+2025-04-30 14:31:05,769 INFO /home/maharina/frappe-env/bin/bench --site erpnext.localhost console
+2025-04-30 14:31:28,937 INFO /home/maharina/frappe-env/bin/bench build
+2025-04-30 14:38:53,409 INFO /home/maharina/frappe-env/bin/bench start
+2025-04-30 14:38:53,636 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-04-30 14:38:53,636 INFO /home/maharina/frappe-env/bin/bench watch
+2025-04-30 14:38:53,646 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-04-30 14:38:53,657 INFO /home/maharina/frappe-env/bin/bench worker
+2025-05-01 09:23:50,002 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-01 09:23:50,196 INFO /home/maharina/frappe-env/bin/bench worker
+2025-05-01 09:23:50,196 INFO /home/maharina/frappe-env/bin/bench watch
+2025-05-01 09:23:50,204 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-05-01 09:23:50,204 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-05-01 12:00:01,741 INFO /home/maharina/frappe-env/bin/bench --verbose --site all backup
+2025-05-01 18:00:01,665 INFO /home/maharina/frappe-env/bin/bench --verbose --site all backup
+2025-05-01 23:27:30,741 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-01 23:32:20,532 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-01 23:32:20,724 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-05-01 23:32:20,726 INFO /home/maharina/frappe-env/bin/bench watch
+2025-05-01 23:32:20,731 INFO /home/maharina/frappe-env/bin/bench worker
+2025-05-01 23:32:20,731 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-05-01 23:32:57,245 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-01 23:32:57,440 INFO /home/maharina/frappe-env/bin/bench watch
+2025-05-01 23:32:57,441 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-05-01 23:32:57,441 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-05-01 23:32:57,443 INFO /home/maharina/frappe-env/bin/bench worker
+2025-05-01 23:38:12,375 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-01 23:39:30,764 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-01 23:39:30,963 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-05-01 23:39:30,965 INFO /home/maharina/frappe-env/bin/bench worker
+2025-05-01 23:39:30,966 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-05-01 23:39:30,978 INFO /home/maharina/frappe-env/bin/bench watch
+2025-05-02 09:04:46,274 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-02 09:04:46,470 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-05-02 09:04:46,472 INFO /home/maharina/frappe-env/bin/bench worker
+2025-05-02 09:04:46,485 INFO /home/maharina/frappe-env/bin/bench watch
+2025-05-02 09:04:46,487 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-05-02 09:30:23,819 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-02 09:30:24,051 INFO /home/maharina/frappe-env/bin/bench watch
+2025-05-02 09:30:24,054 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-05-02 09:30:24,056 INFO /home/maharina/frappe-env/bin/bench worker
+2025-05-02 09:30:24,061 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-05-02 10:32:17,470 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-02 10:32:53,880 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-02 10:34:58,751 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-02 10:34:58,945 INFO /home/maharina/frappe-env/bin/bench watch
+2025-05-02 10:34:58,960 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-05-02 10:34:58,973 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-05-02 10:34:58,978 INFO /home/maharina/frappe-env/bin/bench worker
+2025-05-02 10:35:02,743 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-02 10:35:02,944 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-05-02 10:35:02,948 INFO /home/maharina/frappe-env/bin/bench watch
+2025-05-02 10:35:02,952 INFO /home/maharina/frappe-env/bin/bench worker
+2025-05-02 10:35:02,964 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-05-02 10:35:39,036 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-02 10:35:39,232 INFO /home/maharina/frappe-env/bin/bench watch
+2025-05-02 10:35:39,235 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-05-02 10:35:39,254 INFO /home/maharina/frappe-env/bin/bench worker
+2025-05-02 10:35:39,259 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-05-02 10:36:14,735 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-02 10:36:14,947 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-05-02 10:36:14,953 INFO /home/maharina/frappe-env/bin/bench watch
+2025-05-02 10:36:14,959 INFO /home/maharina/frappe-env/bin/bench worker
+2025-05-02 10:36:14,963 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-05-02 10:37:02,469 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-02 10:37:02,695 INFO /home/maharina/frappe-env/bin/bench watch
+2025-05-02 10:37:02,698 INFO /home/maharina/frappe-env/bin/bench worker
+2025-05-02 10:37:02,705 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-05-02 10:37:02,707 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-05-02 10:41:35,590 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-02 10:41:35,827 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-05-02 10:41:35,828 INFO /home/maharina/frappe-env/bin/bench worker
+2025-05-02 10:41:35,837 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-05-02 10:41:35,847 INFO /home/maharina/frappe-env/bin/bench watch
+2025-05-02 11:31:59,531 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-02 11:31:59,744 INFO /home/maharina/frappe-env/bin/bench watch
+2025-05-02 11:31:59,752 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-05-02 11:31:59,757 INFO /home/maharina/frappe-env/bin/bench worker
+2025-05-02 11:31:59,758 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-05-02 11:36:45,681 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-02 11:36:45,922 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-05-02 11:36:45,930 INFO /home/maharina/frappe-env/bin/bench watch
+2025-05-02 11:36:45,935 INFO /home/maharina/frappe-env/bin/bench worker
+2025-05-02 11:36:45,937 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-05-02 12:00:03,903 INFO /home/maharina/frappe-env/bin/bench --verbose --site all backup
+2025-05-02 16:03:49,136 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-02 16:03:49,396 INFO /home/maharina/frappe-env/bin/bench watch
+2025-05-02 16:03:49,401 INFO /home/maharina/frappe-env/bin/bench worker
+2025-05-02 16:03:49,420 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-05-02 16:03:49,428 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-05-02 16:28:33,502 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-02 16:28:33,742 INFO /home/maharina/frappe-env/bin/bench watch
+2025-05-02 16:28:33,742 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-05-02 16:28:33,746 INFO /home/maharina/frappe-env/bin/bench worker
+2025-05-02 16:28:33,749 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-05-02 18:00:02,191 INFO /home/maharina/frappe-env/bin/bench --verbose --site all backup
+2025-05-02 18:19:23,464 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-02 18:19:23,691 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-05-02 18:19:23,693 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-05-02 18:19:23,708 INFO /home/maharina/frappe-env/bin/bench worker
+2025-05-02 18:19:23,709 INFO /home/maharina/frappe-env/bin/bench watch
+2025-05-03 08:59:30,449 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-03 08:59:30,734 INFO /home/maharina/frappe-env/bin/bench watch
+2025-05-03 08:59:30,734 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-05-03 08:59:30,738 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-05-03 08:59:30,753 INFO /home/maharina/frappe-env/bin/bench worker
+2025-05-03 12:00:01,063 INFO /home/maharina/frappe-env/bin/bench --verbose --site all backup
+2025-05-03 15:09:04,607 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-03 15:09:04,833 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-05-03 15:09:04,834 INFO /home/maharina/frappe-env/bin/bench watch
+2025-05-03 15:09:04,836 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-05-03 15:09:04,848 INFO /home/maharina/frappe-env/bin/bench worker
+2025-05-03 16:15:49,309 INFO /home/maharina/frappe-env/bin/bench --site your-site-name execute erpnext.demo.demo.make_demo
+2025-05-03 16:16:16,080 INFO /home/maharina/frappe-env/bin/bench --site erpnext.localhost execute erpnext.demo.demo.make_demo
+2025-05-03 16:26:34,124 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-03 16:26:34,354 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-05-03 16:26:34,362 INFO /home/maharina/frappe-env/bin/bench worker
+2025-05-03 16:26:34,372 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-05-03 16:26:34,373 INFO /home/maharina/frappe-env/bin/bench watch
+2025-05-03 18:00:00,390 INFO /home/maharina/frappe-env/bin/bench --verbose --site all backup
+2025-05-03 18:41:08,765 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-03 18:41:08,995 INFO /home/maharina/frappe-env/bin/bench watch
+2025-05-03 18:41:08,997 INFO /home/maharina/frappe-env/bin/bench worker
+2025-05-03 18:41:09,000 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-05-03 18:41:09,014 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-05-03 22:31:39,941 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-03 22:31:40,280 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-05-03 22:31:40,288 INFO /home/maharina/frappe-env/bin/bench worker
+2025-05-03 22:31:40,292 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-05-03 22:31:40,293 INFO /home/maharina/frappe-env/bin/bench watch
+2025-05-03 23:33:38,253 INFO /home/maharina/frappe-env/bin/bench --site erpnext.localhost execute custom_fixtures.setup.setup_data.after_install
+2025-05-03 23:34:47,611 INFO /home/maharina/frappe-env/bin/bench new-app custom_fixtures
+2025-05-03 23:34:47,618 LOG creating new app custom_fixtures
+2025-05-03 23:35:11,698 WARNING /home/maharina/frappe-env/bin/bench new-app custom_fixtures executed with exit code 1
+2025-05-03 23:37:47,820 INFO /home/maharina/frappe-env/bin/bench --site erpnext.localhost execute erpnext.setup.reference_data.setup_data.after_install
+2025-05-03 23:41:02,587 INFO /home/maharina/frappe-env/bin/bench --site erpnext.localhost execute erpnext.setup.reference_data.setup_data.after_install()
+2025-05-03 23:41:57,093 INFO /home/maharina/frappe-env/bin/bench --site erpnext.localhost execute import erpnext.setup.reference_data.setup_data; erpnext.setup.reference_data.setup_data.after_install()
+2025-05-03 23:43:32,297 INFO /home/maharina/frappe-env/bin/bench --site erpnext.localhost execute import erpnext.setup.reference_data.setup_data; erpnext.setup.reference_data.setup_data.after_install()
+2025-05-03 23:44:38,572 INFO /home/maharina/frappe-env/bin/bench --site erpnext.localhost console
+2025-05-03 23:46:09,102 INFO /home/maharina/frappe-env/bin/bench --site erpnext.localhost console
+2025-05-03 23:48:43,405 INFO /home/maharina/frappe-env/bin/bench --site erpnext.localhost console
+2025-05-03 23:49:21,366 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-03 23:49:21,627 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-05-03 23:49:21,629 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-05-03 23:49:21,638 INFO /home/maharina/frappe-env/bin/bench watch
+2025-05-03 23:49:21,646 INFO /home/maharina/frappe-env/bin/bench worker
+2025-05-03 23:50:58,327 INFO /home/maharina/frappe-env/bin/bench --site erpnext.localhost set-config -g language fr
+2025-05-03 23:51:05,215 INFO /home/maharina/frappe-env/bin/bench --site erpnext.localhost setup-help
+2025-05-03 23:51:13,000 INFO /home/maharina/frappe-env/bin/bench --site erpnext.localhost sync-languages
+2025-05-03 23:51:27,498 INFO /home/maharina/frappe-env/bin/bench --site erpnext.localhost console
+2025-05-03 23:51:49,181 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-03 23:51:49,425 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-05-03 23:51:49,425 INFO /home/maharina/frappe-env/bin/bench worker
+2025-05-03 23:51:49,438 INFO /home/maharina/frappe-env/bin/bench watch
+2025-05-03 23:51:49,443 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-05-03 23:58:04,867 INFO /home/maharina/frappe-env/bin/bench --site erpnext.localhost reinstall
+2025-05-04 00:00:01,352 INFO /home/maharina/frappe-env/bin/bench --verbose --site all backup
+2025-05-04 00:00:19,655 INFO /home/maharina/frappe-env/bin/bench --site erpnext.localhost reinstall
+2025-05-04 00:01:02,705 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-04 00:01:02,955 INFO /home/maharina/frappe-env/bin/bench watch
+2025-05-04 00:01:02,962 INFO /home/maharina/frappe-env/bin/bench worker
+2025-05-04 00:01:02,973 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-05-04 00:01:02,977 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-05-04 00:04:07,653 INFO /home/maharina/frappe-env/bin/bench --site erpnext.localhost reinstall
+2025-05-04 00:05:49,249 INFO /home/maharina/frappe-env/bin/bench --site erpnext.localhost reinstall --force
+2025-05-04 00:06:14,213 INFO /home/maharina/frappe-env/bin/bench --site erpnext.localhost reinstall --force
+2025-05-04 00:07:15,586 INFO /home/maharina/frappe-env/bin/bench --site erpnext.localhost install-app erpnext
+2025-05-04 00:09:00,673 INFO /home/maharina/frappe-env/bin/bench --site erpnext.localhost reinstall --force
+2025-05-04 00:09:40,605 INFO /home/maharina/frappe-env/bin/bench --site erpnext.localhost set-config language en
+2025-05-04 00:09:52,387 INFO /home/maharina/frappe-env/bin/bench --site erpnext.localhost install-app erpnext
+2025-05-04 00:10:48,944 INFO /home/maharina/frappe-env/bin/bench drop-site erpnext.localhost --force
+2025-05-04 00:12:27,420 INFO /home/maharina/frappe-env/bin/bench new-site erpnext.localhost --db-name erpnext_db
+2025-05-04 00:13:22,164 INFO /home/maharina/frappe-env/bin/bench --site erpnext.localhost install-app frappe
+2025-05-04 00:13:29,507 INFO /home/maharina/frappe-env/bin/bench --site erpnext.localhost install-app erpnext
+2025-05-04 00:14:37,730 INFO /home/maharina/frappe-env/bin/bench drop-site erpnext.localhost --force
+2025-05-04 00:20:31,281 INFO /home/maharina/frappe-env/bin/bench new-site erpnext.localhost --db-name erpnext_db
+2025-05-04 00:20:56,242 INFO /home/maharina/frappe-env/bin/bench drop-site erpnext.localhost --force
+2025-05-04 00:21:56,619 INFO /home/maharina/frappe-env/bin/bench --site erpnext.localhost drop-site
+2025-05-04 00:23:05,222 INFO /home/maharina/frappe-env/bin/bench new-site erpnext.localhost --db-name erpnext_db
+2025-05-04 00:23:55,184 INFO /home/maharina/frappe-env/bin/bench --site erpnext.localhost install-app erpnext
+2025-05-04 00:28:03,136 INFO /home/maharina/frappe-env/bin/bench --site erpnext.localhost install-app erpnext
+2025-05-04 00:28:46,220 INFO /home/maharina/frappe-env/bin/bench --site erpnext.localhost reinstall
+2025-05-04 00:29:53,064 INFO /home/maharina/frappe-env/bin/bench --site erpnext.localhost install-app erpnext
+2025-05-04 00:31:09,553 INFO /home/maharina/frappe-env/bin/bench --site erpnext.localhost install-app erpnext
+2025-05-04 00:31:17,548 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-04 00:31:17,809 INFO /home/maharina/frappe-env/bin/bench watch
+2025-05-04 00:31:17,809 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-05-04 00:31:17,809 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-05-04 00:31:17,834 INFO /home/maharina/frappe-env/bin/bench worker
+2025-05-04 00:40:16,920 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-04 00:40:17,142 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-05-04 00:40:17,146 INFO /home/maharina/frappe-env/bin/bench watch
+2025-05-04 00:40:17,147 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-05-04 00:40:17,156 INFO /home/maharina/frappe-env/bin/bench worker
+2025-05-04 01:09:32,080 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-04 01:09:32,324 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-05-04 01:09:32,329 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-05-04 01:09:32,341 INFO /home/maharina/frappe-env/bin/bench watch
+2025-05-04 01:09:32,348 INFO /home/maharina/frappe-env/bin/bench worker
+2025-05-04 01:12:13,133 INFO /home/maharina/frappe-env/bin/bench --site erpnext.localhost migrate
+2025-05-04 01:12:22,569 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-04 01:12:22,803 INFO /home/maharina/frappe-env/bin/bench watch
+2025-05-04 01:12:22,817 INFO /home/maharina/frappe-env/bin/bench worker
+2025-05-04 01:12:22,835 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-05-04 01:12:22,842 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-05-04 01:19:05,191 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-04 01:19:05,425 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-05-04 01:19:05,435 INFO /home/maharina/frappe-env/bin/bench watch
+2025-05-04 01:19:05,435 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-05-04 01:19:05,436 INFO /home/maharina/frappe-env/bin/bench worker
+2025-05-04 01:19:43,217 INFO /home/maharina/frappe-env/bin/bench --site erpnext.localhost reinstall --force
+2025-05-04 01:19:48,851 INFO /home/maharina/frappe-env/bin/bench --site erpnext.localhost reinstall
+2025-05-04 01:21:45,457 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-04 01:21:45,702 INFO /home/maharina/frappe-env/bin/bench worker
+2025-05-04 01:21:45,704 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-05-04 01:21:45,714 INFO /home/maharina/frappe-env/bin/bench watch
+2025-05-04 01:21:45,717 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-05-04 01:31:13,424 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-04 01:31:13,651 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-05-04 01:31:13,653 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-05-04 01:31:13,656 INFO /home/maharina/frappe-env/bin/bench worker
+2025-05-04 01:31:13,661 INFO /home/maharina/frappe-env/bin/bench watch
+2025-05-04 01:39:31,137 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-04 01:39:31,382 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-05-04 01:39:31,383 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-05-04 01:39:31,397 INFO /home/maharina/frappe-env/bin/bench worker
+2025-05-04 01:39:31,404 INFO /home/maharina/frappe-env/bin/bench watch
+2025-05-04 01:42:50,715 INFO /home/maharina/frappe-env/bin/bench --site erpnext.localhost migrate
+2025-05-04 01:43:00,657 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-04 01:43:00,909 INFO /home/maharina/frappe-env/bin/bench worker
+2025-05-04 01:43:00,913 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-05-04 01:43:00,924 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-05-04 01:43:00,931 INFO /home/maharina/frappe-env/bin/bench watch
+2025-05-04 01:43:28,162 INFO /home/maharina/frappe-env/bin/bench --site erpnext.localhost migrate
+2025-05-04 01:43:47,098 INFO /home/maharina/frappe-env/bin/bench update
+2025-05-04 01:43:49,075 WARNING shallow_clone is set in your bench config.
+However without passing the --reset flag, your repositories will be unshallowed.
+To avoid this, cancel this operation and run `bench update --reset`.
+
+Consider the consequences of `git reset --hard` on your apps before you run that.
+To avoid seeing this warning, set shallow_clone to false in your common_site_config.json
+		
+2025-05-04 01:44:02,869 WARNING /home/maharina/frappe-env/bin/bench update executed with exit code 1
+2025-05-04 01:44:19,980 INFO /home/maharina/frappe-env/bin/bench build
+2025-05-04 01:45:39,370 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-04 01:45:39,593 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-05-04 01:45:39,594 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-05-04 01:45:39,620 INFO /home/maharina/frappe-env/bin/bench worker
+2025-05-04 01:45:39,624 INFO /home/maharina/frappe-env/bin/bench watch
+2025-05-04 10:45:02,724 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-04 10:45:02,959 INFO /home/maharina/frappe-env/bin/bench worker
+2025-05-04 10:45:02,960 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-05-04 10:45:02,961 INFO /home/maharina/frappe-env/bin/bench watch
+2025-05-04 10:45:02,982 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-05-04 10:51:17,792 INFO /home/maharina/frappe-env/bin/bench update
+2025-05-04 10:51:20,260 WARNING shallow_clone is set in your bench config.
+However without passing the --reset flag, your repositories will be unshallowed.
+To avoid this, cancel this operation and run `bench update --reset`.
+
+Consider the consequences of `git reset --hard` on your apps before you run that.
+To avoid seeing this warning, set shallow_clone to false in your common_site_config.json
+		
+2025-05-04 10:51:32,822 WARNING /home/maharina/frappe-env/bin/bench update executed with exit code 1
+2025-05-04 10:51:52,193 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-04 10:51:52,421 INFO /home/maharina/frappe-env/bin/bench worker
+2025-05-04 10:51:52,424 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-05-04 10:51:52,429 INFO /home/maharina/frappe-env/bin/bench watch
+2025-05-04 10:51:52,432 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-05-04 10:54:33,449 INFO /home/maharina/frappe-env/bin/bench --site erpnext.localhost reinstall
+2025-05-04 10:57:04,356 INFO /home/maharina/frappe-env/bin/bench --site erpnext.localhost reinstall
+2025-05-04 10:57:23,870 INFO /home/maharina/frappe-env/bin/bench --site erpnext.localhost reinstall
+2025-05-04 11:00:44,457 INFO /home/maharina/frappe-env/bin/bench --site erpnext.localhost install-app erpnext
+2025-05-04 11:00:55,128 INFO /home/maharina/frappe-env/bin/bench --site erpnext.localhost clear-cache
+2025-05-04 11:01:04,781 INFO /home/maharina/frappe-env/bin/bench --site erpnext.localhost list-apps
+2025-05-04 11:01:12,685 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-04 11:01:12,905 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-05-04 11:01:12,907 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-05-04 11:01:12,914 INFO /home/maharina/frappe-env/bin/bench watch
+2025-05-04 11:01:12,921 INFO /home/maharina/frappe-env/bin/bench worker
+2025-05-04 11:03:18,569 INFO /home/maharina/frappe-env/bin/bench --site erpnext.localhost status
+2025-05-04 11:03:28,935 INFO /home/maharina/frappe-env/bin/bench --site erpnext.localhost status
+2025-05-04 11:03:41,782 INFO /home/maharina/frappe-env/bin/bench update
+2025-05-04 11:03:43,702 WARNING shallow_clone is set in your bench config.
+However without passing the --reset flag, your repositories will be unshallowed.
+To avoid this, cancel this operation and run `bench update --reset`.
+
+Consider the consequences of `git reset --hard` on your apps before you run that.
+To avoid seeing this warning, set shallow_clone to false in your common_site_config.json
+		
+2025-05-04 11:03:55,810 WARNING /home/maharina/frappe-env/bin/bench update executed with exit code 1
+2025-05-04 11:05:21,542 INFO /home/maharina/frappe-env/bin/bench update --reset
+2025-05-04 11:05:25,159 LOG pulling frappe
+2025-05-04 11:05:25,160 DEBUG cd /home/maharina/erpnext/apps/frappe && git fetch --depth=1 --no-tags upstream develop
+2025-05-04 11:05:26,678 DEBUG cd /home/maharina/erpnext/apps/frappe && git reset --hard upstream/develop
+2025-05-04 11:05:26,702 DEBUG cd /home/maharina/erpnext/apps/frappe && git reflog expire --all
+2025-05-04 11:05:26,709 DEBUG cd /home/maharina/erpnext/apps/frappe && git gc --prune=all
+2025-05-04 11:05:26,935 DEBUG cd /home/maharina/erpnext/apps/frappe && find . -name "*.pyc" -delete
+2025-05-04 11:05:27,553 LOG pulling erpnext
+2025-05-04 11:05:27,553 DEBUG cd /home/maharina/erpnext/apps/erpnext && git fetch --depth=1 --no-tags upstream develop
+2025-05-04 11:05:29,529 DEBUG cd /home/maharina/erpnext/apps/erpnext && git reset --hard upstream/develop
+2025-05-04 11:05:29,558 DEBUG cd /home/maharina/erpnext/apps/erpnext && git reflog expire --all
+2025-05-04 11:05:29,562 DEBUG cd /home/maharina/erpnext/apps/erpnext && git gc --prune=all
+2025-05-04 11:05:29,772 DEBUG cd /home/maharina/erpnext/apps/erpnext && find . -name "*.pyc" -delete
+2025-05-04 11:05:29,828 DEBUG cd /home/maharina/erpnext && /home/maharina/erpnext/env/bin/python -m pip install --quiet --upgrade pip
+2025-05-04 11:05:33,716 LOG Installing frappe
+2025-05-04 11:05:33,716 DEBUG cd /home/maharina/erpnext && /home/maharina/erpnext/env/bin/python -m pip install --quiet --upgrade -e /home/maharina/erpnext/apps/frappe 
+2025-05-04 11:05:36,532 DEBUG cd /home/maharina/erpnext && /home/maharina/erpnext/env/bin/python -m pip install --quiet --upgrade coverage~=6.5.0 Faker~=18.10.1 pyngrok~=6.0.0 unittest-xml-reporting~=3.2.0 watchdog~=3.0.0 hypothesis~=6.77.0 responses==0.23.1 freezegun~=1.2.2 pdbpp~=0.10.3 
+2025-05-04 11:05:53,959 DEBUG cd /home/maharina/erpnext/apps/frappe && yarn install --check-files
+2025-05-04 11:06:11,789 LOG Installing erpnext
+2025-05-04 11:06:11,789 DEBUG cd /home/maharina/erpnext && /home/maharina/erpnext/env/bin/python -m pip install --quiet --upgrade -e /home/maharina/erpnext/apps/erpnext 
+2025-05-04 11:06:14,064 DEBUG cd /home/maharina/erpnext/apps/erpnext && yarn install --check-files
+2025-05-04 11:09:42,020 INFO /home/maharina/frappe-env/bin/bench --site erpnext.localhost list-apps
+2025-05-04 11:46:23,255 INFO /home/maharina/frappe-env/bin/bench --site erpnext.localhost migrate
+2025-05-04 11:46:30,145 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-04 11:46:30,572 INFO /home/maharina/frappe-env/bin/bench watch
+2025-05-04 11:46:30,572 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-05-04 11:46:30,593 INFO /home/maharina/frappe-env/bin/bench worker
+2025-05-04 11:46:30,623 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-05-04 11:47:26,579 INFO /home/maharina/frappe-env/bin/bench --site erpnext.localhost migrate
+2025-05-04 11:49:47,943 INFO /home/maharina/frappe-env/bin/bench clear-cache
+2025-05-04 11:50:08,989 INFO /home/maharina/frappe-env/bin/bench --site erpnext.localhost clear-cache
+2025-05-04 11:50:19,601 INFO /home/maharina/frappe-env/bin/bench restart
+2025-05-04 12:00:01,925 INFO /home/maharina/frappe-env/bin/bench --verbose --site all backup
+2025-05-04 12:14:35,107 INFO /home/maharina/frappe-env/bin/bench --site erpnext.localhost reinstall
+2025-05-04 12:17:44,006 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-04 12:17:44,237 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-05-04 12:17:44,242 INFO /home/maharina/frappe-env/bin/bench watch
+2025-05-04 12:17:44,247 INFO /home/maharina/frappe-env/bin/bench worker
+2025-05-04 12:17:44,255 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-05-04 12:35:58,017 INFO /home/maharina/frappe-env/bin/bench --site erpnext.localhost migrate
+2025-05-04 12:36:04,043 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-04 12:36:04,254 INFO /home/maharina/frappe-env/bin/bench watch
+2025-05-04 12:36:04,260 INFO /home/maharina/frappe-env/bin/bench worker
+2025-05-04 12:36:04,267 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-05-04 12:36:04,270 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-05-04 12:36:08,162 INFO /home/maharina/frappe-env/bin/bench --site erpnext.localhost migrate
+2025-05-04 12:36:23,506 INFO /home/maharina/frappe-env/bin/bench --site erpnext.localhost clear-cache
+2025-05-04 12:36:27,525 INFO /home/maharina/frappe-env/bin/bench restart
+2025-05-04 12:41:46,077 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-04 12:41:46,309 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-05-04 12:41:46,315 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-05-04 12:41:46,316 INFO /home/maharina/frappe-env/bin/bench worker
+2025-05-04 12:41:46,322 INFO /home/maharina/frappe-env/bin/bench watch
+2025-05-04 12:53:20,260 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-04 12:53:20,470 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-05-04 12:53:20,470 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-05-04 12:53:20,474 INFO /home/maharina/frappe-env/bin/bench worker
+2025-05-04 12:53:20,475 INFO /home/maharina/frappe-env/bin/bench watch
+2025-05-04 13:02:36,747 INFO /home/maharina/frappe-env/bin/bench --site erpnext.localhost clear-cache
+2025-05-04 13:02:51,338 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-04 13:02:51,594 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-05-04 13:02:51,596 INFO /home/maharina/frappe-env/bin/bench worker
+2025-05-04 13:02:51,607 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-05-04 13:02:51,610 INFO /home/maharina/frappe-env/bin/bench watch
+2025-05-04 13:13:03,502 INFO /home/maharina/frappe-env/bin/bench --site erpnext.localhost clear-cache
+2025-05-04 13:13:10,645 INFO /home/maharina/frappe-env/bin/bench restart
+2025-05-04 15:04:55,220 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-04 15:04:55,444 INFO /home/maharina/frappe-env/bin/bench watch
+2025-05-04 15:04:55,451 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-05-04 15:04:55,455 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-05-04 15:04:55,459 INFO /home/maharina/frappe-env/bin/bench worker
+2025-05-04 15:09:21,716 INFO /home/maharina/frappe-env/bin/bench list-apps --site erpnext.localhost
+2025-05-04 16:25:53,787 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-04 16:25:54,025 INFO /home/maharina/frappe-env/bin/bench worker
+2025-05-04 16:25:54,026 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-05-04 16:25:54,036 INFO /home/maharina/frappe-env/bin/bench watch
+2025-05-04 16:25:54,038 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-05-04 18:00:00,375 INFO /home/maharina/frappe-env/bin/bench --verbose --site all backup
+2025-05-04 18:55:25,977 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-04 18:55:26,223 INFO /home/maharina/frappe-env/bin/bench watch
+2025-05-04 18:55:26,224 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-05-04 18:55:26,229 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-05-04 18:55:26,232 INFO /home/maharina/frappe-env/bin/bench worker
+2025-05-04 19:52:59,897 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-04 19:53:00,144 INFO /home/maharina/frappe-env/bin/bench watch
+2025-05-04 19:53:00,144 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-05-04 19:53:00,173 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-05-04 19:53:00,175 INFO /home/maharina/frappe-env/bin/bench worker
+2025-05-04 19:56:18,321 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-04 19:56:18,590 INFO /home/maharina/frappe-env/bin/bench watch
+2025-05-04 19:56:18,594 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-05-04 19:56:18,595 INFO /home/maharina/frappe-env/bin/bench worker
+2025-05-04 19:56:18,603 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-05-05 00:00:01,432 INFO /home/maharina/frappe-env/bin/bench --verbose --site all backup
+2025-05-05 08:10:24,518 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-05 08:10:24,717 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-05-05 08:10:24,717 INFO /home/maharina/frappe-env/bin/bench worker
+2025-05-05 08:10:24,718 INFO /home/maharina/frappe-env/bin/bench watch
+2025-05-05 08:10:24,718 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-05-05 09:16:20,489 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-05 09:16:20,953 INFO /home/maharina/frappe-env/bin/bench watch
+2025-05-05 09:16:20,967 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-05-05 09:16:20,967 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-05-05 09:16:20,971 INFO /home/maharina/frappe-env/bin/bench worker
+2025-05-05 11:27:33,610 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-05 11:27:33,859 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-05-05 11:27:33,875 INFO /home/maharina/frappe-env/bin/bench watch
+2025-05-05 11:27:33,876 INFO /home/maharina/frappe-env/bin/bench worker
+2025-05-05 11:27:33,876 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-05-05 12:00:01,339 INFO /home/maharina/frappe-env/bin/bench --verbose --site all backup
+2025-05-05 13:41:29,452 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-05 13:41:29,698 INFO /home/maharina/frappe-env/bin/bench watch
+2025-05-05 13:41:29,704 INFO /home/maharina/frappe-env/bin/bench worker
+2025-05-05 13:41:29,714 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-05-05 13:41:29,720 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-05-05 17:24:46,599 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-05 17:24:47,091 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-05-05 17:24:47,093 INFO /home/maharina/frappe-env/bin/bench worker
+2025-05-05 17:24:47,104 INFO /home/maharina/frappe-env/bin/bench watch
+2025-05-05 17:24:47,106 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-05-05 18:00:08,999 INFO /home/maharina/frappe-env/bin/bench --verbose --site all backup
+2025-05-06 06:04:59,343 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-06 06:04:59,571 INFO /home/maharina/frappe-env/bin/bench watch
+2025-05-06 06:04:59,574 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-05-06 06:04:59,576 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-05-06 06:04:59,594 INFO /home/maharina/frappe-env/bin/bench worker
+2025-05-06 08:27:38,008 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-06 08:27:38,558 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-05-06 08:27:38,561 INFO /home/maharina/frappe-env/bin/bench watch
+2025-05-06 08:27:38,570 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-05-06 08:27:38,572 INFO /home/maharina/frappe-env/bin/bench worker
+2025-05-06 09:08:42,942 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-06 09:08:43,395 INFO /home/maharina/frappe-env/bin/bench worker
+2025-05-06 09:08:43,399 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-05-06 09:08:43,407 INFO /home/maharina/frappe-env/bin/bench watch
+2025-05-06 09:08:43,465 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-05-06 10:47:54,696 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-06 10:47:54,903 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-05-06 10:47:54,918 INFO /home/maharina/frappe-env/bin/bench watch
+2025-05-06 10:47:54,920 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-05-06 10:47:54,921 INFO /home/maharina/frappe-env/bin/bench worker
+2025-05-06 10:57:25,678 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-06 10:57:25,885 INFO /home/maharina/frappe-env/bin/bench worker
+2025-05-06 10:57:25,886 INFO /home/maharina/frappe-env/bin/bench watch
+2025-05-06 10:57:25,889 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-05-06 10:57:25,889 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-05-06 11:01:02,645 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-06 11:01:02,859 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-05-06 11:01:02,863 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-05-06 11:01:02,865 INFO /home/maharina/frappe-env/bin/bench worker
+2025-05-06 11:01:02,868 INFO /home/maharina/frappe-env/bin/bench watch
+2025-05-06 11:09:12,594 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-06 11:09:12,811 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-05-06 11:09:12,816 INFO /home/maharina/frappe-env/bin/bench watch
+2025-05-06 11:09:12,836 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-05-06 11:09:12,843 INFO /home/maharina/frappe-env/bin/bench worker
+2025-05-06 11:17:01,482 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-06 11:17:01,804 INFO /home/maharina/frappe-env/bin/bench worker
+2025-05-06 11:17:01,808 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-05-06 11:17:01,822 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-05-06 11:17:01,848 INFO /home/maharina/frappe-env/bin/bench watch
+2025-05-06 11:25:12,231 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-06 11:25:12,434 INFO /home/maharina/frappe-env/bin/bench worker
+2025-05-06 11:25:12,436 INFO /home/maharina/frappe-env/bin/bench watch
+2025-05-06 11:25:12,440 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-05-06 11:25:12,447 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-05-06 11:28:46,005 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-06 11:28:46,250 INFO /home/maharina/frappe-env/bin/bench watch
+2025-05-06 11:28:46,256 INFO /home/maharina/frappe-env/bin/bench worker
+2025-05-06 11:28:46,256 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-05-06 11:28:46,265 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-05-06 12:00:02,087 INFO /home/maharina/frappe-env/bin/bench --verbose --site all backup
+2025-05-06 12:13:07,965 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-06 12:13:08,203 INFO /home/maharina/frappe-env/bin/bench worker
+2025-05-06 12:13:08,207 INFO /home/maharina/frappe-env/bin/bench watch
+2025-05-06 12:13:08,208 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-05-06 12:13:08,214 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-05-06 17:50:27,746 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-06 17:50:28,018 INFO /home/maharina/frappe-env/bin/bench worker
+2025-05-06 17:50:28,020 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-05-06 17:50:28,023 INFO /home/maharina/frappe-env/bin/bench watch
+2025-05-06 17:50:28,026 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-05-06 18:00:04,417 INFO /home/maharina/frappe-env/bin/bench --verbose --site all backup
+2025-05-06 18:00:33,624 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-06 18:00:33,805 INFO /home/maharina/frappe-env/bin/bench worker
+2025-05-06 18:00:33,815 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-05-06 18:00:33,819 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-05-06 18:00:33,830 INFO /home/maharina/frappe-env/bin/bench watch
+2025-05-06 22:00:18,137 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-06 22:00:19,083 INFO /home/maharina/frappe-env/bin/bench watch
+2025-05-06 22:00:19,095 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-05-06 22:00:19,100 INFO /home/maharina/frappe-env/bin/bench worker
+2025-05-06 22:00:19,110 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-05-06 22:19:24,612 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-06 22:19:24,840 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-05-06 22:19:24,842 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-05-06 22:19:24,849 INFO /home/maharina/frappe-env/bin/bench worker
+2025-05-06 22:19:24,853 INFO /home/maharina/frappe-env/bin/bench watch
+2025-05-07 00:00:02,286 INFO /home/maharina/frappe-env/bin/bench --verbose --site all backup

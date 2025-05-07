@@ -1,0 +1,96 @@
+set -o pipefail; /usr/bin/mariadb-dump --user=erpnext_db --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false erpnext_db | /usr/bin/gzip >> ./erpnext.localhost/private/backups/20250429_203001-erpnext_localhost-database.sql.gz
+
+Backup Summary for erpnext.localhost at 2025-04-29 20:30:03.080621
+Config  : /home/maharina/erpnext/sites/erpnext.localhost/private/backups/20250429_203001-erpnext_localhost-site_config_backup.json 113.0B
+Database: /home/maharina/erpnext/sites/erpnext.localhost/private/backups/20250429_203001-erpnext_localhost-database.sql.gz 736.8KiB
+Backup for Site erpnext.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=erpnext_db --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false erpnext_db | /usr/bin/gzip >> ./erpnext.localhost/private/backups/20250501_120002-erpnext_localhost-database.sql.gz
+
+Backup Summary for erpnext.localhost at 2025-05-01 12:00:03.914084
+Config  : /home/maharina/erpnext/sites/erpnext.localhost/private/backups/20250501_120002-erpnext_localhost-site_config_backup.json 154.0B
+Database: /home/maharina/erpnext/sites/erpnext.localhost/private/backups/20250501_120002-erpnext_localhost-database.sql.gz 738.6KiB
+Backup for Site erpnext.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=erpnext_db --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false erpnext_db | /usr/bin/gzip >> ./erpnext.localhost/private/backups/20250501_180002-erpnext_localhost-database.sql.gz
+
+Backup Summary for erpnext.localhost at 2025-05-01 18:00:03.867989
+Config  : /home/maharina/erpnext/sites/erpnext.localhost/private/backups/20250501_180002-erpnext_localhost-site_config_backup.json 154.0B
+Database: /home/maharina/erpnext/sites/erpnext.localhost/private/backups/20250501_180002-erpnext_localhost-database.sql.gz 741.6KiB
+Backup for Site erpnext.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=erpnext_db --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false erpnext_db | /usr/bin/gzip >> ./erpnext.localhost/private/backups/20250502_120004-erpnext_localhost-database.sql.gz
+
+Backup Summary for erpnext.localhost at 2025-05-02 12:00:06.249593
+Config  : /home/maharina/erpnext/sites/erpnext.localhost/private/backups/20250502_120004-erpnext_localhost-site_config_backup.json 154.0B
+Database: /home/maharina/erpnext/sites/erpnext.localhost/private/backups/20250502_120004-erpnext_localhost-database.sql.gz 748.7KiB
+Backup for Site erpnext.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=erpnext_db --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false erpnext_db | /usr/bin/gzip >> ./erpnext.localhost/private/backups/20250502_180003-erpnext_localhost-database.sql.gz
+
+Backup Summary for erpnext.localhost at 2025-05-02 18:00:04.829382
+Config  : /home/maharina/erpnext/sites/erpnext.localhost/private/backups/20250502_180003-erpnext_localhost-site_config_backup.json 154.0B
+Database: /home/maharina/erpnext/sites/erpnext.localhost/private/backups/20250502_180003-erpnext_localhost-database.sql.gz 752.6KiB
+Backup for Site erpnext.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=erpnext_db --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false erpnext_db | /usr/bin/gzip >> ./erpnext.localhost/private/backups/20250503_120002-erpnext_localhost-database.sql.gz
+
+Backup Summary for erpnext.localhost at 2025-05-03 12:00:05.335463
+Config  : /home/maharina/erpnext/sites/erpnext.localhost/private/backups/20250503_120002-erpnext_localhost-site_config_backup.json 154.0B
+Database: /home/maharina/erpnext/sites/erpnext.localhost/private/backups/20250503_120002-erpnext_localhost-database.sql.gz 766.3KiB
+Backup for Site erpnext.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=erpnext_db --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false erpnext_db | /usr/bin/gzip >> ./erpnext.localhost/private/backups/20250503_180001-erpnext_localhost-database.sql.gz
+
+Backup Summary for erpnext.localhost at 2025-05-03 18:00:03.155449
+Config  : /home/maharina/erpnext/sites/erpnext.localhost/private/backups/20250503_180001-erpnext_localhost-site_config_backup.json 154.0B
+Database: /home/maharina/erpnext/sites/erpnext.localhost/private/backups/20250503_180001-erpnext_localhost-database.sql.gz 774.1KiB
+Backup for Site erpnext.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=erpnext_db --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false erpnext_db | /usr/bin/gzip >> ./erpnext.localhost/private/backups/20250504_023001-erpnext_localhost-database.sql.gz
+
+Backup Summary for erpnext.localhost at 2025-05-04 02:30:04.059780
+Config  : /home/maharina/erpnext/sites/erpnext.localhost/private/backups/20250504_023001-erpnext_localhost-site_config_backup.json 154.0B
+Database: /home/maharina/erpnext/sites/erpnext.localhost/private/backups/20250504_023001-erpnext_localhost-database.sql.gz 697.4KiB
+Backup for Site erpnext.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=erpnext_db --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false erpnext_db | /usr/bin/gzip >> ./erpnext.localhost/private/backups/20250504_120002-erpnext_localhost-database.sql.gz
+
+Backup Summary for erpnext.localhost at 2025-05-04 12:00:04.239596
+Config  : /home/maharina/erpnext/sites/erpnext.localhost/private/backups/20250504_120002-erpnext_localhost-site_config_backup.json 154.0B
+Database: /home/maharina/erpnext/sites/erpnext.localhost/private/backups/20250504_120002-erpnext_localhost-database.sql.gz 814.7KiB
+Backup for Site erpnext.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=erpnext_db --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false erpnext_db | /usr/bin/gzip >> ./erpnext.localhost/private/backups/20250504_180001-erpnext_localhost-database.sql.gz
+
+Backup Summary for erpnext.localhost at 2025-05-04 18:00:01.478218
+Config  : /home/maharina/erpnext/sites/erpnext.localhost/private/backups/20250504_180001-erpnext_localhost-site_config_backup.json 154.0B
+Database: /home/maharina/erpnext/sites/erpnext.localhost/private/backups/20250504_180001-erpnext_localhost-database.sql.gz 808.5KiB
+Backup for Site erpnext.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=erpnext_db --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false erpnext_db | /usr/bin/gzip >> ./erpnext.localhost/private/backups/20250505_000002-erpnext_localhost-database.sql.gz
+
+Backup Summary for erpnext.localhost at 2025-05-05 00:00:04.261275
+Config  : /home/maharina/erpnext/sites/erpnext.localhost/private/backups/20250505_000002-erpnext_localhost-site_config_backup.json 154.0B
+Database: /home/maharina/erpnext/sites/erpnext.localhost/private/backups/20250505_000002-erpnext_localhost-database.sql.gz 818.1KiB
+Backup for Site erpnext.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=erpnext_db --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false erpnext_db | /usr/bin/gzip >> ./erpnext.localhost/private/backups/20250505_120002-erpnext_localhost-database.sql.gz
+
+Backup Summary for erpnext.localhost at 2025-05-05 12:00:03.915693
+Config  : /home/maharina/erpnext/sites/erpnext.localhost/private/backups/20250505_120002-erpnext_localhost-site_config_backup.json 154.0B
+Database: /home/maharina/erpnext/sites/erpnext.localhost/private/backups/20250505_120002-erpnext_localhost-database.sql.gz 830.4KiB
+Backup for Site erpnext.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=erpnext_db --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false erpnext_db | /usr/bin/gzip >> ./erpnext.localhost/private/backups/20250505_180009-erpnext_localhost-database.sql.gz
+
+Backup Summary for erpnext.localhost at 2025-05-05 18:00:11.055502
+Config  : /home/maharina/erpnext/sites/erpnext.localhost/private/backups/20250505_180009-erpnext_localhost-site_config_backup.json 154.0B
+Database: /home/maharina/erpnext/sites/erpnext.localhost/private/backups/20250505_180009-erpnext_localhost-database.sql.gz 834.2KiB
+Backup for Site erpnext.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=erpnext_db --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false erpnext_db | /usr/bin/gzip >> ./erpnext.localhost/private/backups/20250506_120002-erpnext_localhost-database.sql.gz
+
+Backup Summary for erpnext.localhost at 2025-05-06 12:00:04.489099
+Config  : /home/maharina/erpnext/sites/erpnext.localhost/private/backups/20250506_120002-erpnext_localhost-site_config_backup.json 154.0B
+Database: /home/maharina/erpnext/sites/erpnext.localhost/private/backups/20250506_120002-erpnext_localhost-database.sql.gz 846.5KiB
+Backup for Site erpnext.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=erpnext_db --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false erpnext_db | /usr/bin/gzip >> ./erpnext.localhost/private/backups/20250506_180004-erpnext_localhost-database.sql.gz
+
+Backup Summary for erpnext.localhost at 2025-05-06 18:00:06.349991
+Config  : /home/maharina/erpnext/sites/erpnext.localhost/private/backups/20250506_180004-erpnext_localhost-site_config_backup.json 154.0B
+Database: /home/maharina/erpnext/sites/erpnext.localhost/private/backups/20250506_180004-erpnext_localhost-database.sql.gz 847.5KiB
+Backup for Site erpnext.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=erpnext_db --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false erpnext_db | /usr/bin/gzip >> ./erpnext.localhost/private/backups/20250507_000003-erpnext_localhost-database.sql.gz
+
+Backup Summary for erpnext.localhost at 2025-05-07 00:00:04.817962
+Config  : /home/maharina/erpnext/sites/erpnext.localhost/private/backups/20250507_000003-erpnext_localhost-site_config_backup.json 154.0B
+Database: /home/maharina/erpnext/sites/erpnext.localhost/private/backups/20250507_000003-erpnext_localhost-database.sql.gz 853.3KiB
+Backup for Site erpnext.localhost has been successfully completed

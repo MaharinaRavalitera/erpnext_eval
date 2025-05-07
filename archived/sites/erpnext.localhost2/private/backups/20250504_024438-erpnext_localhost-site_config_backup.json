@@ -1,0 +1,6 @@
+{
+ "db_name": "erpnext_db",
+ "db_password": "wWcCZs0tnSatqnwj",
+ "db_type": "mariadb",
+ "db_user": "erpnext_db"
+}

@@ -1,0 +1,471 @@
+2025-04-29 21:05:26.358447: Démarrage de la réinitialisation des données opérationnelles (dry_run=False)
+2025-04-29 21:05:26.358503: Démarrage de la réinitialisation des données opérationnelles
+2025-04-29 21:05:26.358528: Création d'une sauvegarde avant la réinitialisation...
+2025-04-29 21:05:26.358585: Sauvegarde simulée (à implémenter avec bench backup)
+2025-04-29 21:05:26.365149: Trouvé 336 doctypes opérationnels à réinitialiser
+2025-04-29 21:05:26.365977: Aucun enregistrement à supprimer pour Scheduler Event
+2025-04-29 21:05:26.366989: Aucun enregistrement à supprimer pour Stock Closing Entry
+2025-04-29 21:05:26.367923: Aucun enregistrement à supprimer pour Stock Closing Balance
+2025-04-29 21:05:26.368352: Aucun enregistrement à supprimer pour Advance Payment Ledger Entry
+2025-04-29 21:05:26.368783: Aucun enregistrement à supprimer pour Common Code
+2025-04-29 21:05:26.369201: Aucun enregistrement à supprimer pour Code List
+2025-04-29 21:05:26.369585: Aucun enregistrement à supprimer pour UTM Medium
+2025-04-29 21:05:26.371957: Supprimé 10 enregistrements de UTM Source
+2025-04-29 21:05:26.372585: Aucun enregistrement à supprimer pour Ledger Health
+2025-04-29 21:05:26.373011: Aucun enregistrement à supprimer pour Asset Shift Factor
+2025-04-29 21:05:26.373406: Aucun enregistrement à supprimer pour Asset Shift Allocation
+2025-04-29 21:05:26.373768: Aucun enregistrement à supprimer pour Plant Floor
+2025-04-29 21:05:26.374147: Aucun enregistrement à supprimer pour Bisect Nodes
+2025-04-29 21:05:26.374487: Aucun enregistrement à supprimer pour Process Subscription
+2025-04-29 21:05:26.374815: Aucun enregistrement à supprimer pour Subcontracting BOM
+2025-04-29 21:05:26.375138: Aucun enregistrement à supprimer pour Unreconcile Payment
+2025-04-29 21:05:26.375454: Aucun enregistrement à supprimer pour Serial and Batch Bundle
+2025-04-29 21:05:26.375764: Aucun enregistrement à supprimer pour Blog Post
+2025-04-29 21:05:26.376067: Aucun enregistrement à supprimer pour Asset Activity
+2025-04-29 21:05:26.376393: Aucun enregistrement à supprimer pour BOM Creator
+2025-04-29 21:05:26.376699: Aucun enregistrement à supprimer pour Repost Accounting Ledger
+2025-04-29 21:05:26.377495: Aucun enregistrement à supprimer pour Stock Reservation Entry
+2025-04-29 21:05:26.379648: Supprimé 5 enregistrements de Warehouse
+2025-04-29 21:05:26.380063: Aucun enregistrement à supprimer pour Custom HTML Block
+2025-04-29 21:05:26.380384: Aucun enregistrement à supprimer pour Changelog Feed
+2025-04-29 21:05:26.380705: Aucun enregistrement à supprimer pour Process Payment Reconciliation
+2025-04-29 21:05:26.381011: Aucun enregistrement à supprimer pour UTM Campaign
+2025-04-29 21:05:26.381316: Aucun enregistrement à supprimer pour Process Payment Reconciliation Log
+2025-04-29 21:05:26.381649: Aucun enregistrement à supprimer pour Reminder
+2025-04-29 21:05:26.381961: Aucun enregistrement à supprimer pour Account Closing Balance
+2025-04-29 21:05:26.384226: Supprimé 2 enregistrements de Permission Log
+2025-04-29 21:05:26.387007: Supprimé 11 enregistrements de Incoterm
+2025-04-29 21:05:26.387466: Aucun enregistrement à supprimer pour Workstation Type
+2025-04-29 21:05:26.387810: Aucun enregistrement à supprimer pour Asset Depreciation Schedule
+2025-04-29 21:05:26.388149: Aucun enregistrement à supprimer pour Repost Payment Ledger
+2025-04-29 21:05:26.388472: Aucun enregistrement à supprimer pour Submission Queue
+2025-04-29 21:05:26.388783: Aucun enregistrement à supprimer pour Inventory Dimension
+2025-04-29 21:05:26.389094: Aucun enregistrement à supprimer pour Payment Ledger Entry
+2025-04-29 21:05:26.389432: Aucun enregistrement à supprimer pour Subcontracting Receipt
+2025-04-29 21:05:26.389750: Aucun enregistrement à supprimer pour Subcontracting Order
+2025-04-29 21:05:26.390064: Aucun enregistrement à supprimer pour Integration Request
+2025-04-29 21:05:26.390489: Aucun enregistrement à supprimer pour BOM Update Log
+2025-04-29 21:05:26.390919: Aucun enregistrement à supprimer pour Telephony Call Type
+2025-04-29 21:05:26.391442: Aucun enregistrement à supprimer pour Call Log
+2025-04-29 21:05:26.392239: Aucun enregistrement à supprimer pour Employee
+2025-04-29 21:05:26.392739: Aucun enregistrement à supprimer pour Lead
+2025-04-29 21:05:26.393274: Aucun enregistrement à supprimer pour Journal Entry
+2025-04-29 21:05:26.393873: Aucun enregistrement à supprimer pour Sales Invoice
+2025-04-29 21:05:26.394700: Aucun enregistrement à supprimer pour Tax Category
+2025-04-29 21:05:26.397140: Supprimé 1 enregistrements de Item Tax Template
+2025-04-29 21:05:26.397772: Aucun enregistrement à supprimer pour Asset
+2025-04-29 21:05:26.398294: Aucun enregistrement à supprimer pour Document Share Key
+2025-04-29 21:05:26.398805: Aucun enregistrement à supprimer pour Cost Center Allocation
+2025-04-29 21:05:26.399308: Aucun enregistrement à supprimer pour Repost Item Valuation
+2025-04-29 21:05:26.399973: Aucun enregistrement à supprimer pour Data Import Log
+2025-04-29 21:05:26.400947: Aucun enregistrement à supprimer pour Ledger Merge
+2025-04-29 21:05:26.401968: Aucun enregistrement à supprimer pour Bulk Transaction Log Detail
+2025-04-29 21:05:26.402850: Aucun enregistrement à supprimer pour Competitor
+2025-04-29 21:05:26.403486: Aucun enregistrement à supprimer pour Print Format Field Template
+2025-04-29 21:05:26.404156: Aucun enregistrement à supprimer pour Network Printer Settings
+2025-04-29 21:05:26.404803: Aucun enregistrement à supprimer pour Package Import
+2025-04-29 21:05:26.405400: Aucun enregistrement à supprimer pour Package Release
+2025-04-29 21:05:26.405979: Aucun enregistrement à supprimer pour Asset Capitalization
+2025-04-29 21:05:26.406629: Aucun enregistrement à supprimer pour Package
+2025-04-29 21:05:26.407625: Aucun enregistrement à supprimer pour Party Specific Item
+2025-04-29 21:05:26.408573: Aucun enregistrement à supprimer pour Prospect
+2025-04-29 21:05:26.409217: Aucun enregistrement à supprimer pour Party Link
+2025-04-29 21:05:26.410168: Aucun enregistrement à supprimer pour Discussion Reply
+2025-04-29 21:05:26.410979: Aucun enregistrement à supprimer pour Discussion Topic
+2025-04-29 21:05:26.411580: Aucun enregistrement à supprimer pour South Africa VAT Settings
+2025-04-29 21:05:26.412320: Aucun enregistrement à supprimer pour Webhook Request Log
+2025-04-29 21:05:26.413002: Aucun enregistrement à supprimer pour Form Tour
+2025-04-29 21:05:26.413749: Aucun enregistrement à supprimer pour User Group
+2025-04-29 21:05:26.414509: Aucun enregistrement à supprimer pour Transaction Deletion Record
+2025-04-29 21:05:26.415171: Aucun enregistrement à supprimer pour Quality Inspection Parameter Group
+2025-04-29 21:05:26.415818: Aucun enregistrement à supprimer pour Quality Inspection Parameter
+2025-04-29 21:05:26.416574: Aucun enregistrement à supprimer pour Module Profile
+2025-04-29 21:05:26.417489: Aucun enregistrement à supprimer pour Voice Call Settings
+2025-04-29 21:05:26.418248: Aucun enregistrement à supprimer pour Incoming Call Settings
+2025-04-29 21:05:26.419018: Aucun enregistrement à supprimer pour DocType Layout
+2025-04-29 21:05:26.419609: Aucun enregistrement à supprimer pour Putaway Rule
+2025-04-29 21:05:26.420264: Aucun enregistrement à supprimer pour Accounting Dimension Filter
+2025-04-29 21:05:26.420895: Aucun enregistrement à supprimer pour Non Conformance
+2025-04-29 21:05:26.421461: Aucun enregistrement à supprimer pour UAE VAT Settings
+2025-04-29 21:05:26.423174: Aucun enregistrement à supprimer pour Document Naming Rule
+2025-04-29 21:05:26.423906: Aucun enregistrement à supprimer pour Shipment Parcel Template
+2025-04-29 21:05:26.424636: Aucun enregistrement à supprimer pour Shipment
+2025-04-29 21:05:26.425244: Aucun enregistrement à supprimer pour Process Statement Of Accounts
+2025-04-29 21:05:26.426176: Aucun enregistrement à supprimer pour Module Onboarding
+2025-04-29 21:05:26.427218: Aucun enregistrement à supprimer pour Color
+2025-04-29 21:05:26.427883: Aucun enregistrement à supprimer pour Downtime Entry
+2025-04-29 21:05:26.430180: Supprimé 23 enregistrements de Web Template
+2025-04-29 21:05:26.431033: Aucun enregistrement à supprimer pour Web Page View
+2025-04-29 21:05:26.433441: Supprimé 26 enregistrements de Number Card
+2025-04-29 21:05:26.434998: Aucun enregistrement à supprimer pour Journal Entry Template
+2025-04-29 21:05:26.435860: Aucun enregistrement à supprimer pour Dashboard Settings
+2025-04-29 21:05:26.436554: Aucun enregistrement à supprimer pour Lower Deduction Certificate
+2025-04-29 21:05:26.437252: Aucun enregistrement à supprimer pour POS Opening Entry
+2025-04-29 21:05:26.437913: Aucun enregistrement à supprimer pour POS Invoice Merge Log
+2025-04-29 21:05:26.438533: Aucun enregistrement à supprimer pour POS Invoice
+2025-04-29 21:05:26.439079: Aucun enregistrement à supprimer pour Dunning Type
+2025-04-29 21:05:26.439760: Aucun enregistrement à supprimer pour Process Deferred Accounting
+2025-04-29 21:05:26.440338: Aucun enregistrement à supprimer pour List View Settings
+2025-04-29 21:05:26.440881: Aucun enregistrement à supprimer pour Import Supplier Invoice
+2025-04-29 21:05:26.442183: Aucun enregistrement à supprimer pour Tag Link
+2025-04-29 21:05:26.443290: Aucun enregistrement à supprimer pour Appointment
+2025-04-29 21:05:26.444227: Aucun enregistrement à supprimer pour Notification Log
+2025-04-29 21:05:26.445488: Aucun enregistrement à supprimer pour Data Import
+2025-04-29 21:05:26.446886: Aucun enregistrement à supprimer pour Bank Statement Import
+2025-04-29 21:05:26.448035: Aucun enregistrement à supprimer pour Pick List
+2025-04-29 21:05:26.448651: Aucun enregistrement à supprimer pour Google Calendar
+2025-04-29 21:05:26.449213: Aucun enregistrement à supprimer pour Dunning
+2025-04-29 21:05:26.449833: Aucun enregistrement à supprimer pour Email Campaign
+2025-04-29 21:05:26.450411: Aucun enregistrement à supprimer pour Google Contacts
+2025-04-29 21:05:26.451005: Aucun enregistrement à supprimer pour Communication Medium
+2025-04-29 21:05:26.451550: Aucun enregistrement à supprimer pour Item Manufacturer
+2025-04-29 21:05:26.452212: Aucun enregistrement à supprimer pour Quality Feedback
+2025-04-29 21:05:26.453099: Aucun enregistrement à supprimer pour Quality Feedback Template
+2025-04-29 21:05:26.455919: Supprimé 1 enregistrements de Warehouse Type
+2025-04-29 21:05:26.458738: Supprimé 3 enregistrements de Issue Priority
+2025-04-29 21:05:26.459485: Aucun enregistrement à supprimer pour Accounting Dimension
+2025-04-29 21:05:26.460062: Aucun enregistrement à supprimer pour Task Type
+2025-04-29 21:05:26.460623: Aucun enregistrement à supprimer pour Milestone
+2025-04-29 21:05:26.461244: Aucun enregistrement à supprimer pour Milestone Tracker
+2025-04-29 21:05:26.463766: Supprimé 9 enregistrements de Stock Entry Type
+2025-04-29 21:05:26.464564: Aucun enregistrement à supprimer pour Invoice Discounting
+2025-04-29 21:05:26.465435: Aucun enregistrement à supprimer pour Assignment Rule
+2025-04-29 21:05:26.466156: Aucun enregistrement à supprimer pour Project Template
+2025-04-29 21:05:26.466881: Aucun enregistrement à supprimer pour Website Route Meta
+2025-04-29 21:05:26.467504: Aucun enregistrement à supprimer pour Personal Data Deletion Request
+2025-04-29 21:05:26.468117: Aucun enregistrement à supprimer pour Promotional Scheme
+2025-04-29 21:05:26.472066: Supprimé 116 enregistrements de Comment
+2025-04-29 21:05:26.476015: Supprimé 2 enregistrements de Dashboard Chart Source
+2025-04-29 21:05:26.476938: Aucun enregistrement à supprimer pour Token Cache
+2025-04-29 21:05:26.478330: Aucun enregistrement à supprimer pour Personal Data Download Request
+2025-04-29 21:05:26.478975: Aucun enregistrement à supprimer pour Connected App
+2025-04-29 21:05:26.481324: Supprimé 8 enregistrements de Dashboard
+2025-04-29 21:05:26.484716: Supprimé 39 enregistrements de Dashboard Chart
+2025-04-29 21:05:26.485480: Aucun enregistrement à supprimer pour Document Follow
+2025-04-29 21:05:26.485922: Aucun enregistrement à supprimer pour Opportunity Lost Reason
+2025-04-29 21:05:26.486625: Aucun enregistrement à supprimer pour Service Level Agreement
+2025-04-29 21:05:26.487781: Aucun enregistrement à supprimer pour Employee Group
+2025-04-29 21:05:26.488595: Aucun enregistrement à supprimer pour Bank Account Subtype
+2025-04-29 21:05:26.489747: Aucun enregistrement à supprimer pour Bank Account Type
+2025-04-29 21:05:26.490457: Aucun enregistrement à supprimer pour Bank Transaction
+2025-04-29 21:05:26.491012: Aucun enregistrement à supprimer pour Video
+2025-04-29 21:05:26.491848: Aucun enregistrement à supprimer pour Quality Meeting
+2025-04-29 21:05:26.492881: Aucun enregistrement à supprimer pour Quality Procedure
+2025-04-29 21:05:26.493550: Aucun enregistrement à supprimer pour Route History
+2025-04-29 21:05:26.494261: Aucun enregistrement à supprimer pour Quality Goal
+2025-04-29 21:05:26.494908: Aucun enregistrement à supprimer pour Quality Review
+2025-04-29 21:05:26.495504: Aucun enregistrement à supprimer pour Quality Action
+2025-04-29 21:05:26.498083: Supprimé 3 enregistrements de Market Segment
+2025-04-29 21:05:26.500296: Supprimé 8 enregistrements de Sales Stage
+2025-04-29 21:05:26.501156: Aucun enregistrement à supprimer pour Email Digest
+2025-04-29 21:05:26.501869: Aucun enregistrement à supprimer pour Payment Order
+2025-04-29 21:05:26.502551: Aucun enregistrement à supprimer pour Routing
+2025-04-29 21:05:26.503158: Aucun enregistrement à supprimer pour Job Card
+2025-04-29 21:05:26.503944: Aucun enregistrement à supprimer pour Prepared Report
+2025-04-29 21:05:26.504705: Aucun enregistrement à supprimer pour Cashier Closing
+2025-04-29 21:05:26.508955: Supprimé 7 enregistrements de Sales Partner Type
+2025-04-29 21:05:26.509687: Aucun enregistrement à supprimer pour POS Closing Entry
+2025-04-29 21:05:26.510737: Aucun enregistrement à supprimer pour View Log
+2025-04-29 21:05:26.511308: Aucun enregistrement à supprimer pour Blanket Order
+2025-04-29 21:05:26.511826: Aucun enregistrement à supprimer pour Slack Webhook URL
+2025-04-29 21:05:26.512402: Aucun enregistrement à supprimer pour Asset Value Adjustment
+2025-04-29 21:05:26.513081: Aucun enregistrement à supprimer pour Location
+2025-04-29 21:05:26.517370: Supprimé 235 enregistrements de UOM Conversion Factor
+2025-04-29 21:05:26.520768: Supprimé 17 enregistrements de UOM Category
+2025-04-29 21:05:26.521758: Aucun enregistrement à supprimer pour Contract Template
+2025-04-29 21:05:26.524720: Supprimé 6 enregistrements de Success Action
+2025-04-29 21:05:26.525578: Aucun enregistrement à supprimer pour Accounting Period
+2025-04-29 21:05:26.526205: Aucun enregistrement à supprimer pour Tax Withholding Category
+2025-04-29 21:05:26.526809: Aucun enregistrement à supprimer pour Exchange Rate Revaluation
+2025-04-29 21:05:26.527359: Aucun enregistrement à supprimer pour Finance Book
+2025-04-29 21:05:26.528010: Aucun enregistrement à supprimer pour Contract
+2025-04-29 21:05:26.528636: Aucun enregistrement à supprimer pour Bank
+2025-04-29 21:05:26.529251: Aucun enregistrement à supprimer pour Auto Repeat
+2025-04-29 21:05:26.529835: Aucun enregistrement à supprimer pour Item Alternative
+2025-04-29 21:05:26.530411: Aucun enregistrement à supprimer pour Subscription Plan
+2025-04-29 21:05:26.531029: Aucun enregistrement à supprimer pour List Filter
+2025-04-29 21:05:26.531544: Aucun enregistrement à supprimer pour Transaction Log
+2025-04-29 21:05:26.532264: Aucun enregistrement à supprimer pour Quality Inspection Template
+2025-04-29 21:05:26.532892: Aucun enregistrement à supprimer pour Loyalty Program
+2025-04-29 21:05:26.533467: Aucun enregistrement à supprimer pour Loyalty Point Entry
+2025-04-29 21:05:26.534076: Aucun enregistrement à supprimer pour Coupon Code
+2025-04-29 21:05:26.534702: Aucun enregistrement à supprimer pour Project Update
+2025-04-29 21:05:26.538349: Supprimé 2 enregistrements de Share Type
+2025-04-29 21:05:26.539592: Aucun enregistrement à supprimer pour Share Transfer
+2025-04-29 21:05:26.540646: Aucun enregistrement à supprimer pour Shareholder
+2025-04-29 21:05:26.541365: Aucun enregistrement à supprimer pour Social Login Key
+2025-04-29 21:05:26.541975: Aucun enregistrement à supprimer pour Production Plan
+2025-04-29 21:05:26.542735: Aucun enregistrement à supprimer pour Asset Maintenance Log
+2025-04-29 21:05:26.543648: Aucun enregistrement à supprimer pour Calendar View
+2025-04-29 21:05:26.544466: Aucun enregistrement à supprimer pour Asset Repair
+2025-04-29 21:05:26.545649: Aucun enregistrement à supprimer pour Asset Maintenance Team
+2025-04-29 21:05:26.546481: Aucun enregistrement à supprimer pour Asset Maintenance
+2025-04-29 21:05:26.547352: Aucun enregistrement à supprimer pour Driver
+2025-04-29 21:05:26.548074: Aucun enregistrement à supprimer pour Delivery Trip
+2025-04-29 21:05:26.550394: Supprimé 3 enregistrements de Opportunity Type
+2025-04-29 21:05:26.551192: Aucun enregistrement à supprimer pour Issue Type
+2025-04-29 21:05:26.552028: Aucun enregistrement à supprimer pour Webhook
+2025-04-29 21:05:26.554231: Supprimé 5 enregistrements de Role Profile
+2025-04-29 21:05:26.558148: Supprimé 4 enregistrements de Print Style
+2025-04-29 21:05:26.558932: Aucun enregistrement à supprimer pour Payment Terms Template
+2025-04-29 21:05:26.559590: Aucun enregistrement à supprimer pour Payment Term
+2025-04-29 21:05:26.560259: Aucun enregistrement à supprimer pour Subscription
+2025-04-29 21:05:26.562489: Supprimé 3 enregistrements de Project Type
+2025-04-29 21:05:26.563265: Aucun enregistrement à supprimer pour Supplier Scorecard Period
+2025-04-29 21:05:26.563953: Aucun enregistrement à supprimer pour Bank Account
+2025-04-29 21:05:26.564577: Aucun enregistrement à supprimer pour Supplier Scorecard
+2025-04-29 21:05:26.567989: Supprimé 4 enregistrements de Supplier Scorecard Standing
+2025-04-29 21:05:26.568675: Aucun enregistrement à supprimer pour Supplier Scorecard Criteria
+2025-04-29 21:05:26.571052: Supprimé 21 enregistrements de Supplier Scorecard Variable
+2025-04-29 21:05:26.573833: Supprimé 2 enregistrements de Domain
+2025-04-29 21:05:26.576457: Supprimé 9 enregistrements de Salutation
+2025-04-29 21:05:26.578703: Supprimé 7 enregistrements de Gender
+2025-04-29 21:05:26.579584: Aucun enregistrement à supprimer pour Customs Tariff Number
+2025-04-29 21:05:26.580780: Aucun enregistrement à supprimer pour Email Rule
+2025-04-29 21:05:26.581402: Aucun enregistrement à supprimer pour Custom Role
+2025-04-29 21:05:26.585294: Supprimé 126 enregistrements de Deleted Document
+2025-04-29 21:05:26.586069: Aucun enregistrement à supprimer pour Website Sidebar
+2025-04-29 21:05:26.589460: Supprimé 4 enregistrements de Party Type
+2025-04-29 21:05:26.590021: Aucun enregistrement à supprimer pour Bank Guarantee
+2025-04-29 21:05:26.590521: Aucun enregistrement à supprimer pour Kanban Board
+2025-04-29 21:05:26.590907: Aucun enregistrement à supprimer pour Vehicle
+2025-04-29 21:05:26.591228: Aucun enregistrement à supprimer pour Auto Email Report
+2025-04-29 21:05:26.591551: Aucun enregistrement à supprimer pour OAuth Authorization Code
+2025-04-29 21:05:26.592135: Aucun enregistrement à supprimer pour OAuth Bearer Token
+2025-04-29 21:05:26.592642: Aucun enregistrement à supprimer pour OAuth Client
+2025-04-29 21:05:26.593024: Aucun enregistrement à supprimer pour Payment Entry
+2025-04-29 21:05:26.593388: Aucun enregistrement à supprimer pour Tag
+2025-04-29 21:05:26.593728: Aucun enregistrement à supprimer pour Budget
+2025-04-29 21:05:26.594060: Aucun enregistrement à supprimer pour Cheque Print Template
+2025-04-29 21:05:26.594374: Aucun enregistrement à supprimer pour Asset Movement
+2025-04-29 21:05:26.594685: Aucun enregistrement à supprimer pour Email Flag Queue
+2025-04-29 21:05:26.595025: Aucun enregistrement à supprimer pour Unhandled Email
+2025-04-29 21:05:26.595366: Aucun enregistrement à supprimer pour Asset Category
+2025-04-29 21:05:26.595689: Aucun enregistrement à supprimer pour Request for Quotation
+2025-04-29 21:05:26.596004: Aucun enregistrement à supprimer pour Manufacturer
+2025-04-29 21:05:26.596360: Aucun enregistrement à supprimer pour Payment Gateway Account
+2025-04-29 21:05:26.596691: Aucun enregistrement à supprimer pour Payment Request
+2025-04-29 21:05:26.597355: Aucun enregistrement à supprimer pour Tax Rule
+2025-04-29 21:05:26.598021: Aucun enregistrement à supprimer pour Activity Cost
+2025-04-29 21:05:26.600157: Supprimé 2 enregistrements de Email Unsubscribe
+2025-04-29 21:05:26.600615: Aucun enregistrement à supprimer pour Email Group Member
+2025-04-29 21:05:26.601085: Aucun enregistrement à supprimer pour Email Group
+2025-04-29 21:05:26.602997: Supprimé 1 enregistrements de Website Theme
+2025-04-29 21:05:26.605501: Supprimé 1 enregistrements de DocShare
+2025-04-29 21:05:26.607841: Supprimé 1 enregistrements de Operation
+2025-04-29 21:05:26.608421: Aucun enregistrement à supprimer pour Help Article
+2025-04-29 21:05:26.608857: Aucun enregistrement à supprimer pour Help Category
+2025-04-29 21:05:26.612260: Supprimé 2 enregistrements de Item Attribute
+2025-04-29 21:05:26.615591: Supprimé 6 enregistrements de Web Form
+2025-04-29 21:05:26.618756: Supprimé 80 enregistrements de Language
+2025-04-29 21:05:26.621319: Supprimé 2 enregistrements de Notification
+2025-04-29 21:05:26.621781: Aucun enregistrement à supprimer pour Landed Cost Voucher
+2025-04-29 21:05:26.622145: Aucun enregistrement à supprimer pour Pricing Rule
+2025-04-29 21:05:26.624856: Supprimé 12 enregistrements de Version
+2025-04-29 21:05:26.625472: Aucun enregistrement à supprimer pour Shipping Rule
+2025-04-29 21:05:26.625959: Aucun enregistrement à supprimer pour Product Bundle
+2025-04-29 21:05:26.626356: Aucun enregistrement à supprimer pour Sales Order
+2025-04-29 21:05:26.626976: Aucun enregistrement à supprimer pour Customer
+2025-04-29 21:05:26.627432: Aucun enregistrement à supprimer pour Event
+2025-04-29 21:05:26.627785: Aucun enregistrement à supprimer pour Delivery Note
+2025-04-29 21:05:26.628107: Aucun enregistrement à supprimer pour Quotation
+2025-04-29 21:05:26.628419: Aucun enregistrement à supprimer pour Note
+2025-04-29 21:05:26.628761: Aucun enregistrement à supprimer pour POS Profile
+2025-04-29 21:05:26.629083: Aucun enregistrement à supprimer pour Supplier Quotation
+2025-04-29 21:05:26.629409: Aucun enregistrement à supprimer pour Purchase Order
+2025-04-29 21:05:26.629754: Aucun enregistrement à supprimer pour Purchase Invoice
+2025-04-29 21:05:26.630073: Aucun enregistrement à supprimer pour Purchase Receipt
+2025-04-29 21:05:26.630387: Aucun enregistrement à supprimer pour Serial No
+2025-04-29 21:05:26.630708: Aucun enregistrement à supprimer pour Item
+2025-04-29 21:05:26.631021: Aucun enregistrement à supprimer pour Item Price
+2025-04-29 21:05:26.631334: Aucun enregistrement à supprimer pour Installation Note
+2025-04-29 21:05:26.631649: Aucun enregistrement à supprimer pour Quality Inspection
+2025-04-29 21:05:26.631960: Aucun enregistrement à supprimer pour Sales Partner
+2025-04-29 21:05:26.632272: Aucun enregistrement à supprimer pour Packing Slip
+2025-04-29 21:05:26.632587: Aucun enregistrement à supprimer pour Stock Entry
+2025-04-29 21:05:26.632929: Aucun enregistrement à supprimer pour Stock Reconciliation
+2025-04-29 21:05:26.633245: Aucun enregistrement à supprimer pour Web Page
+2025-04-29 21:05:26.635774: Supprimé 6 enregistrements de Item Group
+2025-04-29 21:05:26.636546: Aucun enregistrement à supprimer pour Blogger
+2025-04-29 21:05:26.637021: Aucun enregistrement à supprimer pour Blog Category
+2025-04-29 21:05:26.637381: Aucun enregistrement à supprimer pour Opportunity
+2025-04-29 21:05:26.637703: Aucun enregistrement à supprimer pour Website Slideshow
+2025-04-29 21:05:26.638035: Aucun enregistrement à supprimer pour Material Request
+2025-04-29 21:05:26.638380: Aucun enregistrement à supprimer pour Project
+2025-04-29 21:05:26.638697: Aucun enregistrement à supprimer pour Batch
+2025-04-29 21:05:26.640877: Supprimé 5 enregistrements de Activity Type
+2025-04-29 21:05:26.641356: Aucun enregistrement à supprimer pour Timesheet
+2025-04-29 21:05:26.641797: Aucun enregistrement à supprimer pour Brand
+2025-04-29 21:05:26.644131: Supprimé 14 enregistrements de Department
+2025-04-29 21:05:26.644835: Aucun enregistrement à supprimer pour Issue
+2025-04-29 21:05:26.648239: Supprimé 83 enregistrements de Account
+2025-04-29 21:05:26.648666: Aucun enregistrement à supprimer pour Task
+2025-04-29 21:05:26.648994: Aucun enregistrement à supprimer pour Stock Ledger Entry
+2025-04-29 21:05:26.649338: Aucun enregistrement à supprimer pour Communication
+2025-04-29 21:05:26.651442: Supprimé 2 enregistrements de Price List
+2025-04-29 21:05:26.654633: Supprimé 2 enregistrements de Cost Center
+2025-04-29 21:05:26.655165: Aucun enregistrement à supprimer pour BOM
+2025-04-29 21:05:26.658613: Supprimé 249 enregistrements de Country
+2025-04-29 21:05:26.659127: Aucun enregistrement à supprimer pour Address
+2025-04-29 21:05:26.661657: Supprimé 1 enregistrements de Contact
+2025-04-29 21:05:26.662321: Aucun enregistrement à supprimer pour Newsletter
+2025-04-29 21:05:26.662731: Aucun enregistrement à supprimer pour Maintenance Visit
+2025-04-29 21:05:26.663100: Aucun enregistrement à supprimer pour Warranty Claim
+2025-04-29 21:05:26.663399: Aucun enregistrement à supprimer pour Maintenance Schedule
+2025-04-29 21:05:26.663684: Aucun enregistrement à supprimer pour Bin
+2025-04-29 21:05:26.666980: Supprimé 239 enregistrements de UOM
+2025-04-29 21:05:26.669167: Supprimé 3 enregistrements de Territory
+2025-04-29 21:05:26.671929: Supprimé 1 enregistrements de Sales Person
+2025-04-29 21:05:26.674020: Supprimé 2 enregistrements de Print Heading
+2025-04-29 21:05:26.676759: Supprimé 8 enregistrements de Supplier Group
+2025-04-29 21:05:26.677633: Aucun enregistrement à supprimer pour Quotation Lost Reason
+2025-04-29 21:05:26.680354: Supprimé 5 enregistrements de Customer Group
+2025-04-29 21:05:26.680906: Aucun enregistrement à supprimer pour Authorization Rule
+2025-04-29 21:05:26.681282: Aucun enregistrement à supprimer pour Campaign
+2025-04-29 21:05:26.681624: Aucun enregistrement à supprimer pour Workstation
+2025-04-29 21:05:26.681945: Aucun enregistrement à supprimer pour Work Order
+2025-04-29 21:05:26.682256: Aucun enregistrement à supprimer pour Holiday List
+2025-04-29 21:05:26.682583: Aucun enregistrement à supprimer pour Branch
+2025-04-29 21:05:26.684482: Supprimé 31 enregistrements de Designation
+2025-04-29 21:05:26.684970: Aucun enregistrement à supprimer pour Supplier
+2025-04-29 21:05:26.686811: Supprimé 1 enregistrements de Sales Taxes and Charges Template
+2025-04-29 21:05:26.689208: Supprimé 1 enregistrements de Purchase Taxes and Charges Template
+2025-04-29 21:05:26.689679: Aucun enregistrement à supprimer pour Period Closing Voucher
+2025-04-29 21:05:26.690062: Aucun enregistrement à supprimer pour GL Entry
+2025-04-29 21:05:26.690406: Aucun enregistrement à supprimer pour Monthly Distribution
+2025-04-29 21:05:26.692227: Supprimé 2 enregistrements de File
+2025-04-29 21:05:26.694863: Supprimé 5 enregistrements de Mode of Payment
+2025-04-29 21:05:26.695374: Aucun enregistrement à supprimer pour Email Queue
+2025-04-29 21:05:26.695884: Aucun enregistrement à supprimer pour ToDo
+2025-04-29 21:05:26.696253: Aucun enregistrement à supprimer pour SMS Log
+2025-04-29 21:05:26.699616: Supprimé 51 enregistrements de Industry Type
+2025-04-29 21:05:26.699872: Réinitialisation terminée. Résumé: {
+  "dry_run": false,
+  "total_doctypes_processed": 336,
+  "doctypes_with_data": 61,
+  "doctypes_empty": 275,
+  "doctypes_with_errors": 0,
+  "total_records_deleted": 1540,
+  "details": [
+    {
+      "doctype": "Country",
+      "success": true,
+      "count": 249,
+      "error": null
+    },
+    {
+      "doctype": "UOM",
+      "success": true,
+      "count": 239,
+      "error": null
+    },
+    {
+      "doctype": "UOM Conversion Factor",
+      "success": true,
+      "count": 235,
+      "error": null
+    },
+    {
+      "doctype": "Deleted Document",
+      "success": true,
+      "count": 126,
+      "error": null
+    },
+    {
+      "doctype": "Comment",
+      "success": true,
+      "count": 116,
+      "error": null
+    },
+    {
+      "doctype": "Account",
+      "success": true,
+      "count": 83,
+      "error": null
+    },
+    {
+      "doctype": "Language",
+      "success": true,
+      "count": 80,
+      "error": null
+    },
+    {
+      "doctype": "Industry Type",
+      "success": true,
+      "count": 51,
+      "error": null
+    },
+    {
+      "doctype": "Dashboard Chart",
+      "success": true,
+      "count": 39,
+      "error": null
+    },
+    {
+      "doctype": "Designation",
+      "success": true,
+      "count": 31,
+      "error": null
+    },
+    {
+      "doctype": "Number Card",
+      "success": true,
+      "count": 26,
+      "error": null
+    },
+    {
+      "doctype": "Web Template",
+      "success": true,
+      "count": 23,
+      "error": null
+    },
+    {
+      "doctype": "Supplier Scorecard Variable",
+      "success": true,
+      "count": 21,
+      "error": null
+    },
+    {
+      "doctype": "UOM Category",
+      "success": true,
+      "count": 17,
+      "error": null
+    },
+    {
+      "doctype": "Department",
+      "success": true,
+      "count": 14,
+      "error": null
+    },
+    {
+      "doctype": "Version",
+      "success": true,
+      "count": 12,
+      "error": null
+    },
+    {
+      "doctype": "Incoterm",
+      "success": true,
+      "count": 11,
+      "error": null
+    },
+    {
+      "doctype": "UTM Source",
+      "success": true,
+      "count": 10,
+      "error": null
+    },
+    {
+      "doctype": "Stock Entry Type",
+      "success": true,
+      "count": 9,
+      "error": null
+    },
+    {
+      "doctype": "Salutation",
+      "success": true,
+      "count": 9,
+      "error": null
+    }
+  ]
+}

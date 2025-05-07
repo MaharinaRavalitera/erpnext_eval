@@ -1,0 +1,67 @@
+2025-04-30 14:15:15,920 INFO ipython === bench console session ===
+2025-04-30 14:15:15,920 INFO ipython doc = frappe.new_doc("Language")
+2025-04-30 14:15:15,920 INFO ipython doc.language_code = "fr"
+2025-04-30 14:15:15,920 INFO ipython doc.language_name = "Français"
+2025-04-30 14:15:15,920 INFO ipython doc.insert()
+2025-04-30 14:15:15,920 INFO ipython frappe.db.commit()
+2025-04-30 14:15:15,920 INFO ipython ;
+2025-04-30 14:15:15,920 INFO ipython === session end ===
+2025-04-30 14:22:56,559 INFO ipython === bench console session ===
+2025-04-30 14:22:56,560 INFO ipython doc = frappe.new_doc("Language")
+2025-04-30 14:22:56,560 INFO ipython doc.language_code = "fr"
+2025-04-30 14:22:56,560 INFO ipython doc.language_name = "Français"
+2025-04-30 14:22:56,560 INFO ipython doc.insert()
+2025-04-30 14:22:56,560 INFO ipython frappe.db.commit()
+2025-04-30 14:22:56,560 INFO ipython === session end ===
+2025-04-30 14:26:22,196 INFO ipython === bench console session ===
+2025-04-30 14:26:22,197 INFO ipython === session end ===
+2025-04-30 14:28:24,774 INFO ipython === bench console session ===
+2025-04-30 14:28:24,776 INFO ipython if not frappe.db.exists("Language", "fr"):
+        # Créer la langue française
+            doc = frappe.new_doc("Language")
+                doc.language_code = "fr"
+2025-04-30 14:28:24,776 INFO ipython     doc.language_name = "Français"
+2025-04-30 14:28:24,776 INFO ipython     doc.insert()
+2025-04-30 14:28:24,776 INFO ipython     frappe.db.commit()
+2025-04-30 14:28:24,776 INFO ipython     print("Langue française créée avec succès")
+2025-04-30 14:28:24,776 INFO ipython else:
+        print("La langue française existe déjà")
+2025-04-30 14:28:24,776 INFO ipython === session end ===
+2025-04-30 14:31:14,194 INFO ipython === bench console session ===
+2025-04-30 14:31:14,195 INFO ipython doc = frappe.new_doc("Language")
+2025-04-30 14:31:14,195 INFO ipython doc.language_code = "fr"
+2025-04-30 14:31:14,195 INFO ipython doc.language_name = "Français"
+2025-04-30 14:31:14,196 INFO ipython doc.insert()
+2025-04-30 14:31:14,196 INFO ipython frappe.db.commit()
+2025-04-30 14:31:14,196 INFO ipython === session end ===
+2025-05-03 23:45:15,339 INFO ipython === bench console session ===
+2025-05-03 23:45:15,341 INFO ipython from erpnext.setup.reference_data.setup_data import after_install
+2025-05-03 23:45:15,342 INFO ipython after_install()
+2025-05-03 23:45:15,342 INFO ipython frappe.db.commit()
+2025-05-03 23:45:15,342 INFO ipython === session end ===
+2025-05-03 23:47:25,318 INFO ipython === bench console session ===
+2025-05-03 23:47:25,318 INFO ipython # Liste tous les pays disponibles
+2025-05-03 23:47:25,318 INFO ipython import frappe
+2025-05-03 23:47:25,318 INFO ipython countries = frappe.get_all("Country", fields=["name"])
+2025-05-03 23:47:25,318 INFO ipython === session end ===
+2025-05-03 23:49:04,588 INFO ipython === bench console session ===
+2025-05-03 23:49:04,588 INFO ipython from erpnext.setup.reference_data.setup_data import after_install
+2025-05-03 23:49:04,588 INFO ipython after_install()
+2025-05-03 23:49:04,588 INFO ipython frappe.db.commit()
+2025-05-03 23:49:04,589 INFO ipython === session end ===
+2025-05-03 23:51:44,950 INFO ipython === bench console session ===
+2025-05-03 23:51:44,951 INFO ipython import frappe
+2025-05-03 23:51:44,952 INFO ipython # Vérifier si la langue fr existe déjà
+2025-05-03 23:51:44,952 INFO ipython if not frappe.db.exists("Language", "fr"):
+        # Créer la langue française
+            lang = frappe.new_doc("Language")
+                lang.language_name = "Français"
+2025-05-03 23:51:44,952 INFO ipython     lang.language_code = "fr"
+2025-05-03 23:51:44,952 INFO ipython     lang.date_format = "dd-mm-yyyy"
+2025-05-03 23:51:44,952 INFO ipython     lang.time_format = "HH:mm:ss"
+2025-05-03 23:51:44,952 INFO ipython     lang.save()
+2025-05-03 23:51:44,952 INFO ipython     frappe.db.commit()
+2025-05-03 23:51:44,952 INFO ipython     print("Langue française créée avec succès")
+2025-05-03 23:51:44,952 INFO ipython else:
+        print("La langue française existe déjà")
+2025-05-03 23:51:44,952 INFO ipython === session end ===
