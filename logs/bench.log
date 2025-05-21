@@ -625,3 +625,157 @@ To avoid seeing this warning, set shallow_clone to false in your common_site_con
 2025-05-06 22:19:24,849 INFO /home/maharina/frappe-env/bin/bench worker
 2025-05-06 22:19:24,853 INFO /home/maharina/frappe-env/bin/bench watch
 2025-05-07 00:00:02,286 INFO /home/maharina/frappe-env/bin/bench --verbose --site all backup
+2025-05-07 09:06:46,573 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-07 09:06:46,853 INFO /home/maharina/frappe-env/bin/bench worker
+2025-05-07 09:06:46,863 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-05-07 09:06:46,871 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-05-07 09:06:46,891 INFO /home/maharina/frappe-env/bin/bench watch
+2025-05-07 09:45:59,360 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-07 09:45:59,559 INFO /home/maharina/frappe-env/bin/bench worker
+2025-05-07 09:45:59,561 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-05-07 09:45:59,562 INFO /home/maharina/frappe-env/bin/bench watch
+2025-05-07 09:45:59,565 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-05-07 09:53:02,284 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-07 09:53:02,482 INFO /home/maharina/frappe-env/bin/bench worker
+2025-05-07 09:53:02,482 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-05-07 09:53:02,516 INFO /home/maharina/frappe-env/bin/bench watch
+2025-05-07 09:53:02,526 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-05-07 10:00:44,896 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-07 10:00:45,113 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-05-07 10:00:45,123 INFO /home/maharina/frappe-env/bin/bench watch
+2025-05-07 10:00:45,143 INFO /home/maharina/frappe-env/bin/bench worker
+2025-05-07 10:00:45,143 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-05-07 10:03:46,811 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-07 10:03:47,024 INFO /home/maharina/frappe-env/bin/bench watch
+2025-05-07 10:03:47,026 INFO /home/maharina/frappe-env/bin/bench worker
+2025-05-07 10:03:47,033 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-05-07 10:03:47,035 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-05-07 10:08:16,751 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-07 10:08:16,964 INFO /home/maharina/frappe-env/bin/bench worker
+2025-05-07 10:08:16,969 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-05-07 10:08:16,973 INFO /home/maharina/frappe-env/bin/bench watch
+2025-05-07 10:08:16,974 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-05-07 10:14:31,013 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-07 10:14:31,258 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-05-07 10:14:31,262 INFO /home/maharina/frappe-env/bin/bench worker
+2025-05-07 10:14:31,263 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-05-07 10:14:31,282 INFO /home/maharina/frappe-env/bin/bench watch
+2025-05-07 10:19:10,915 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-07 10:19:11,122 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-05-07 10:19:11,136 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-05-07 10:19:11,154 INFO /home/maharina/frappe-env/bin/bench worker
+2025-05-07 10:19:11,155 INFO /home/maharina/frappe-env/bin/bench watch
+2025-05-07 10:39:43,571 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-07 10:39:43,786 INFO /home/maharina/frappe-env/bin/bench worker
+2025-05-07 10:39:43,788 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-05-07 10:39:43,806 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-05-07 10:39:43,816 INFO /home/maharina/frappe-env/bin/bench watch
+2025-05-07 11:10:46,761 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-07 11:10:47,155 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-05-07 11:10:47,166 INFO /home/maharina/frappe-env/bin/bench watch
+2025-05-07 11:10:47,169 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-05-07 11:10:47,180 INFO /home/maharina/frappe-env/bin/bench worker
+2025-05-07 11:15:05,317 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-07 11:15:05,723 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-05-07 11:15:05,770 INFO /home/maharina/frappe-env/bin/bench watch
+2025-05-07 11:15:05,784 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-05-07 11:15:05,785 INFO /home/maharina/frappe-env/bin/bench worker
+2025-05-07 11:20:13,801 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-07 11:20:14,193 INFO /home/maharina/frappe-env/bin/bench watch
+2025-05-07 11:20:14,197 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-05-07 11:20:14,198 INFO /home/maharina/frappe-env/bin/bench worker
+2025-05-07 11:20:14,199 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-05-07 11:26:53,513 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-07 11:26:53,969 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-05-07 11:26:53,970 INFO /home/maharina/frappe-env/bin/bench worker
+2025-05-07 11:26:53,983 INFO /home/maharina/frappe-env/bin/bench watch
+2025-05-07 11:26:54,011 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-05-07 11:41:52,250 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-07 11:41:52,681 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-05-07 11:41:52,682 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-05-07 11:41:52,684 INFO /home/maharina/frappe-env/bin/bench watch
+2025-05-07 11:41:52,686 INFO /home/maharina/frappe-env/bin/bench worker
+2025-05-07 11:53:04,044 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-07 11:53:04,466 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-05-07 11:53:04,473 INFO /home/maharina/frappe-env/bin/bench worker
+2025-05-07 11:53:04,478 INFO /home/maharina/frappe-env/bin/bench watch
+2025-05-07 11:53:04,482 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-05-07 11:55:56,644 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-07 11:55:57,014 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-05-07 11:55:57,016 INFO /home/maharina/frappe-env/bin/bench worker
+2025-05-07 11:55:57,016 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-05-07 11:55:57,017 INFO /home/maharina/frappe-env/bin/bench watch
+2025-05-07 13:02:53,361 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-07 13:02:53,778 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-05-07 13:02:53,784 INFO /home/maharina/frappe-env/bin/bench worker
+2025-05-07 13:02:53,788 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-05-07 13:02:53,807 INFO /home/maharina/frappe-env/bin/bench watch
+2025-05-07 13:10:34,511 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-07 13:10:34,901 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-05-07 13:10:34,906 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-05-07 13:10:34,913 INFO /home/maharina/frappe-env/bin/bench worker
+2025-05-07 13:10:34,959 INFO /home/maharina/frappe-env/bin/bench watch
+2025-05-07 13:14:02,121 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-07 13:14:02,588 INFO /home/maharina/frappe-env/bin/bench watch
+2025-05-07 13:14:02,589 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-05-07 13:14:02,595 INFO /home/maharina/frappe-env/bin/bench worker
+2025-05-07 13:14:02,618 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-05-07 13:18:36,854 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-07 13:18:37,408 INFO /home/maharina/frappe-env/bin/bench watch
+2025-05-07 13:18:37,442 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-05-07 13:18:37,486 INFO /home/maharina/frappe-env/bin/bench worker
+2025-05-07 13:18:37,488 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-05-07 13:23:26,270 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-07 13:23:26,699 INFO /home/maharina/frappe-env/bin/bench watch
+2025-05-07 13:23:26,703 INFO /home/maharina/frappe-env/bin/bench worker
+2025-05-07 13:23:26,713 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-05-07 13:23:26,719 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-05-07 13:25:30,373 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-07 13:25:30,857 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-05-07 13:25:30,866 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-05-07 13:25:30,875 INFO /home/maharina/frappe-env/bin/bench worker
+2025-05-07 13:25:30,881 INFO /home/maharina/frappe-env/bin/bench watch
+2025-05-07 13:42:05,628 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-07 13:42:06,090 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-05-07 13:42:06,094 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-05-07 13:42:06,095 INFO /home/maharina/frappe-env/bin/bench worker
+2025-05-07 13:42:06,108 INFO /home/maharina/frappe-env/bin/bench watch
+2025-05-07 13:45:16,311 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-07 13:45:16,765 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-05-07 13:45:16,772 INFO /home/maharina/frappe-env/bin/bench watch
+2025-05-07 13:45:16,776 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-05-07 13:45:16,786 INFO /home/maharina/frappe-env/bin/bench worker
+2025-05-07 13:52:38,851 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-07 13:52:39,294 INFO /home/maharina/frappe-env/bin/bench worker
+2025-05-07 13:52:39,301 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-05-07 13:52:39,322 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-05-07 13:52:39,327 INFO /home/maharina/frappe-env/bin/bench watch
+2025-05-12 20:42:30,777 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-12 20:42:31,074 INFO /home/maharina/frappe-env/bin/bench watch
+2025-05-12 20:42:31,075 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-05-12 20:42:31,076 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-05-12 20:42:31,083 INFO /home/maharina/frappe-env/bin/bench worker
+2025-05-12 20:56:13,393 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-12 20:56:35,018 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-12 20:57:55,033 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-12 20:59:26,732 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-12 20:59:26,955 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-05-12 20:59:26,959 INFO /home/maharina/frappe-env/bin/bench watch
+2025-05-12 20:59:26,963 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-05-12 20:59:26,964 INFO /home/maharina/frappe-env/bin/bench worker
+2025-05-12 21:06:08,246 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-12 21:06:08,590 INFO /home/maharina/frappe-env/bin/bench worker
+2025-05-12 21:06:08,592 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-05-12 21:06:08,596 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-05-12 21:06:08,597 INFO /home/maharina/frappe-env/bin/bench watch
+2025-05-13 08:03:50,963 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-13 08:03:51,276 INFO /home/maharina/frappe-env/bin/bench watch
+2025-05-13 08:03:51,282 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-05-13 08:03:51,287 INFO /home/maharina/frappe-env/bin/bench worker
+2025-05-13 08:03:51,314 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-05-14 20:45:37,375 INFO /home/maharina/frappe-env/bin/bench start
+2025-05-14 20:45:37,603 INFO /home/maharina/frappe-env/bin/bench schedule
+2025-05-14 20:45:37,613 INFO /home/maharina/frappe-env/bin/bench serve --port 8000
+2025-05-14 20:45:37,615 INFO /home/maharina/frappe-env/bin/bench worker
+2025-05-14 20:45:37,638 INFO /home/maharina/frappe-env/bin/bench watch
+2025-05-15 18:00:06,315 INFO /home/maharina/frappe-env/bin/bench --verbose --site all backup

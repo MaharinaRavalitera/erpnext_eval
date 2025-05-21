@@ -349,3 +349,63 @@ Form Dict: {'fields': '["*"]'}
 2025-05-07 00:28:31,534 ERROR frappe New Exception collected in error log
 Site: erpnext.localhost
 Form Dict: {'fields': '["*"]'}
+2025-05-07 09:19:54,918 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Page","name":"new-page-eipyjyqmca","__islocal":1,"__unsaved":1,"owner":"Administrator","system_page":0,"standard":"Yes","roles":[],"page_name":"Data-export","title":"Data-export","module":"Data-export"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2025-05-07 09:20:50,692 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'new_page': '{"content":"[{\\"type\\":\\"header\\",\\"data\\":{\\"text\\":\\"Export-Data\\"}}]","name":"Export-Data","label":"Export-Data","title":"Export-Data","public":1,"for_user":"","parent_page":"","is_editable":true,"selected":true,"app":"frappe","type":"Link","link_type":"Page","link_to":"export-data"}', 'cmd': 'frappe.desk.doctype.workspace.workspace.new_page'}
+2025-05-07 09:22:21,532 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'new_page': '{"content":"[{\\"type\\":\\"header\\",\\"data\\":{\\"text\\":\\"Export Data\\"}}]","name":"Export Data","label":"Export Data","title":"Export Data","public":1,"for_user":"","parent_page":"Settings","is_editable":true,"selected":true,"app":"frappe","type":"Link","link_type":"Page","link_to":"export-data"}', 'cmd': 'frappe.desk.doctype.workspace.workspace.new_page'}
+2025-05-07 13:03:36,324 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'is_private': '1', 'cmd': 'erpnext.data_import.import_purchase_orders.import_purchase_orders'}
+2025-05-07 13:23:59,987 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'doctype': 'Warehouse', 'name': 'tsotra - F', 'cmd': 'frappe.client.delete'}
+2025-05-07 13:24:37,369 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'doctype': 'Warehouse', 'name': 'tsotra - F', 'cmd': 'frappe.client.delete'}
+2025-05-07 13:27:50,414 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'fields': '["*","items.*"]'}
+2025-05-07 13:27:50,414 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'fields': '["*","items.*"]'}
+2025-05-07 13:27:50,417 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'fields': '["*","items.*"]'}
+2025-05-07 13:27:50,417 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'fields': '["*","items.*"]'}
+2025-05-07 13:27:50,417 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'fields': '["*","items.*"]'}
+2025-05-07 13:27:50,417 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'fields': '["*","items.*"]'}
+2025-05-07 13:27:50,624 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'fields': '["*","items.*"]'}
+2025-05-07 13:27:50,624 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'fields': '["*","items.*"]'}
+2025-05-13 08:53:46,932 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'country': 'madagascar', 'supplier_type': 'company', 'supplier_name': 'andrana', 'supplier_group': 'e'}
+2025-05-13 08:53:59,266 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'country': 'Madagascar', 'supplier_type': 'Company', 'supplier_name': 'ABC', 'supplier_group': 'All Supplier Group'}
+2025-05-13 08:54:06,736 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {}
+2025-05-13 08:54:29,284 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'country': 'madagascar', 'supplier_type': 'company', 'supplier_name': 'andrana', 'supplier_group': 'e'}
+2025-05-13 08:55:14,111 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'country': 'Madagascar', 'supplier_type': 'Company', 'supplier_name': 'ABC', 'supplier_group': 'All Supplier Grou'}
+2025-05-13 08:56:11,826 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {}
