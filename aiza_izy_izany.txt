@@ -42,3 +42,8 @@ Il pourrait y avoir un problème de mappage entre les noms de champs dans ERPNex
 
 
 j'aimerais finir le CRUD dans le liste des fournissseurs, devis du fournisseurs et commandes dans la nouvelle App. c'est à dire j'aimerais pouvoir Creer, lister (qui est deja present), modifier et supprimer. prendre toujours en compte la modification de prix 
+
+
+token git:
+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
+
